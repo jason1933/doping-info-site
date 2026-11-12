@@ -1,0 +1,63 @@
+name: Update news
+
+on:
+  schedule:
+    - cron: '17 21 * * *'   # 21:17 UTC = 06:17 KST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['data/*.json']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      FETCH: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch news (scheduled / manual runs only)
+        if: env.FETCH == 'true'
+        run: node scripts/fetch-news.mjs
+
+      - name: Generate data/*.js
+        run: node scripts/build-data-js.mjs
+
+      - name: Validate data
+        # Content-rule violations are reported as warnings; news.json schema errors fail the job.
+        run: node scripts/validate-data.mjs --content-only-warn
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            if [ -n "$(git status --porcelain data/)" ]; then
+              git add data/
+              git commit -m "chore: update news data"
+            else
+              echo "No changes to commit."
+              exit 0
+            fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt); resetting to origin/main and regenerating."
+            git fetch origin main
+            git reset --hard origin/main
+            if [ "$FETCH" = "true" ]; then node scripts/fetch-news.mjs; fi
+            node scripts/build-data-js.mjs
+          done
+          echo "Push failed after 3 attempts." >&2
+          exit 1

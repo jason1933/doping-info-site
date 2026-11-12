@@ -1,0 +1,1151 @@
+[
+  {
+    "id": "s0-concept",
+    "category": "S0",
+    "name": {
+      "ko": "비승인 물질 (개념)",
+      "en": "Non-Approved Substances (concept)"
+    },
+    "aliases": {
+      "ko": [
+        "비승인 약물",
+        "디자이너 약물",
+        "연구용 화학물질"
+      ],
+      "en": [
+        "non-approved drugs",
+        "designer drugs",
+        "research chemicals"
+      ]
+    },
+    "effects": {
+      "ko": "S0는 특정 물질이 아니라, 어떤 정부 보건 당국에서도 인체 치료용으로 승인되지 않은 모든 약리 물질을 포괄하는 개념입니다. 임상 개발 중이거나 개발이 중단된 약물, 디자이너 약물, 수의학용으로만 승인된 물질이 해당되며, 다른 분류에 명시되지 않았더라도 금지됩니다.",
+      "en": "S0 is not a single substance but a catch-all concept covering any pharmacological substance not approved by any governmental health authority for human therapeutic use. Drugs in or withdrawn from clinical development, designer drugs and veterinary-only substances fall under it, even if they are not named in other sections."
+    },
+    "sideEffects": {
+      "ko": "인체 대상의 안전성 평가를 거치지 않았기 때문에 부작용과 장기적 위험을 예측할 수 없습니다. 제조 품질이 관리되지 않아 오염이나 성분 불일치의 위험도 큽니다.",
+      "en": "Because these substances have not passed human safety assessment, their side effects and long-term risks are unpredictable. Uncontrolled manufacturing also creates a high risk of contamination or mislabelled contents."
+    },
+    "detection": {
+      "ko": "소변 및 혈액 검사에서 질량분석 기반 분석법으로 확인합니다. 새로운 물질이 확인되면 검사 실험실의 분석 대상에 추가되며, 보관된 시료를 재분석하기도 합니다.",
+      "en": "Identified through urine and blood tests using mass spectrometry-based analysis. Newly identified substances are added to laboratory test menus, and stored samples may be reanalysed."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "testosterone",
+    "category": "S1",
+    "name": {
+      "ko": "테스토스테론",
+      "en": "Testosterone"
+    },
+    "aliases": {
+      "ko": [
+        "남성호르몬",
+        "외인성 테스토스테론"
+      ],
+      "en": [
+        "exogenous testosterone",
+        "male sex hormone"
+      ]
+    },
+    "effects": {
+      "ko": "테스토스테론은 체내에서 자연적으로 생성되는 주요 남성 호르몬으로, 근육량과 근력 유지에 관여합니다. 외부에서 투입하는 경우 동화작용제로 분류되어 상시 금지됩니다.",
+      "en": "Testosterone is the principal male sex hormone naturally produced by the body and is involved in maintaining muscle mass and strength. When introduced from outside the body it is classed as an anabolic agent and is prohibited at all times."
+    },
+    "sideEffects": {
+      "ko": "호르몬 불균형, 여드름, 간 기능 이상, 심혈관 질환 위험 증가 등이 보고되어 있습니다. 남성은 생식 기능 저하, 여성은 목소리 변화 등 남성화 증상이 나타날 수 있습니다.",
+      "en": "Reported risks include hormonal imbalance, acne, liver problems and an increased risk of cardiovascular disease. Men may experience reduced fertility, and women may develop masculinising effects such as a deepening voice."
+    },
+    "detection": {
+      "ko": "소변 검사의 스테로이드 프로파일과 선수 생체여권(ABP)의 스테로이드 모듈로 이상 여부를 살핍니다. 체내 생성분과 외부 투입분은 탄소 동위원소비 분석(IRMS/CIR)으로 구별합니다.",
+      "en": "Urine steroid profiles and the steroidal module of the Athlete Biological Passport (ABP) are used to flag abnormalities. Isotope ratio mass spectrometry (IRMS/CIR) distinguishes exogenous from naturally produced testosterone."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Testosterone",
+        "url": "https://en.wikipedia.org/wiki/Testosterone"
+      }
+    ],
+    "caseIds": [
+      "east-german-state-doping",
+      "lance-armstrong-2012",
+      "park-tae-hwan-2014"
+    ]
+  },
+  {
+    "id": "stanozolol",
+    "category": "S1",
+    "name": {
+      "ko": "스타노졸롤",
+      "en": "Stanozolol"
+    },
+    "aliases": {
+      "ko": [
+        "윈스트롤"
+      ],
+      "en": [
+        "Winstrol"
+      ]
+    },
+    "effects": {
+      "ko": "스타노졸롤은 디하이드로테스토스테론에서 유도된 합성 동화 스테로이드입니다. 1988년 서울 올림픽에서 벤 존슨이 이 물질로 적발되면서 널리 알려졌습니다.",
+      "en": "Stanozolol is a synthetic anabolic steroid derived from dihydrotestosterone. It became widely known when Ben Johnson tested positive for it at the 1988 Seoul Olympics."
+    },
+    "sideEffects": {
+      "ko": "간 손상, 콜레스테롤 수치 악화, 심혈관 질환 위험 증가가 보고되어 있습니다. 호르몬 체계 교란과 여성의 남성화 증상도 나타날 수 있습니다.",
+      "en": "Reported risks include liver damage, unfavourable cholesterol changes and increased cardiovascular risk. It can also disrupt the hormonal system and cause masculinising effects in women."
+    },
+    "detection": {
+      "ko": "소변 검사에서 가스·액체 크로마토그래피-질량분석법으로 대사체를 확인합니다. 장기 보관 시료의 재분석으로 과거 사례가 적발되기도 했습니다.",
+      "en": "Detected in urine tests by identifying its metabolites with gas or liquid chromatography-mass spectrometry. Reanalysis of stored samples has also uncovered past cases."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Stanozolol",
+        "url": "https://en.wikipedia.org/wiki/Stanozolol"
+      }
+    ],
+    "caseIds": [
+      "ben-johnson-1988"
+    ]
+  },
+  {
+    "id": "thg",
+    "category": "S1",
+    "name": {
+      "ko": "테트라하이드로게스트리논 (THG)",
+      "en": "Tetrahydrogestrinone (THG)"
+    },
+    "aliases": {
+      "ko": [
+        "THG",
+        "더 클리어"
+      ],
+      "en": [
+        "THG",
+        "The Clear"
+      ]
+    },
+    "effects": {
+      "ko": "THG는 검사에 걸리지 않도록 의도적으로 설계된 '디자이너 스테로이드'로, BALCO 스캔들을 통해 세상에 알려졌습니다. 2003년 익명의 제보로 사용된 주사기가 미국 반도핑기구에 전달되면서 실체가 밝혀졌습니다.",
+      "en": "THG is a 'designer steroid' deliberately created to escape existing tests and was exposed through the BALCO scandal. Its existence came to light in 2003 when a used syringe was anonymously sent to the U.S. Anti-Doping Agency."
+    },
+    "sideEffects": {
+      "ko": "인체 대상 안전성 시험을 거치지 않은 물질이어서 위험을 정확히 알 수 없습니다. 다른 동화 스테로이드와 유사한 간 및 심혈관 위험, 호르몬 교란이 우려됩니다.",
+      "en": "It was never tested for safety in humans, so its risks are not precisely known. Liver and cardiovascular risks and hormonal disruption similar to other anabolic steroids are a concern."
+    },
+    "detection": {
+      "ko": "물질 구조가 밝혀진 뒤 소변 검사용 질량분석 분석법이 개발되었습니다. 이후 보관 시료 재분석을 통해 여러 선수가 적발되었습니다.",
+      "en": "A mass spectrometry method for urine testing was developed once its structure was identified. Several athletes were subsequently caught through reanalysis of stored samples."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Tetrahydrogestrinone",
+        "url": "https://en.wikipedia.org/wiki/Tetrahydrogestrinone"
+      }
+    ],
+    "caseIds": [
+      "balco-marion-jones-2007"
+    ]
+  },
+  {
+    "id": "epo",
+    "category": "S2",
+    "name": {
+      "ko": "EPO (에리스로포이에틴)",
+      "en": "EPO (Erythropoietin)"
+    },
+    "aliases": {
+      "ko": [
+        "에리스로포이에틴",
+        "적혈구 생성인자",
+        "이포"
+      ],
+      "en": [
+        "erythropoietin",
+        "rEPO",
+        "recombinant EPO",
+        "epoetin"
+      ]
+    },
+    "effects": {
+      "ko": "EPO는 신장에서 분비되어 적혈구 생성을 촉진하는 호르몬으로, 빈혈 치료제로 개발되었습니다. 혈액의 산소 운반 능력을 높이기 때문에 1990년대 이후 지구력 종목에서 대표적인 도핑 물질로 악용되었습니다.",
+      "en": "EPO is a hormone secreted by the kidneys that stimulates red blood cell production, and it was developed as a treatment for anaemia. Because it raises the blood's oxygen-carrying capacity, it was widely misused in endurance sports from the 1990s onwards."
+    },
+    "sideEffects": {
+      "ko": "혈액이 지나치게 끈끈해져 혈전, 뇌졸중, 심근경색 위험이 커집니다. 고혈압을 유발할 수 있으며, 탈수 상태에서는 위험이 더욱 커집니다.",
+      "en": "It can make the blood excessively thick, raising the risk of blood clots, stroke and heart attack. It can also cause high blood pressure, and the risks increase further with dehydration."
+    },
+    "detection": {
+      "ko": "소변 및 혈액 검사에서 전기영동 기반 분석법으로 재조합 EPO를 체내 EPO와 구별합니다. 선수 생체여권(ABP)의 혈액 모듈은 혈액 지표의 장기적 변화를 추적해 간접적으로 사용 정황을 포착합니다.",
+      "en": "Urine and blood tests use electrophoresis-based methods to distinguish recombinant EPO from the body's own EPO. The haematological module of the Athlete Biological Passport (ABP) tracks blood markers over time to reveal indirect signs of use."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "WADA: Athlete Biological Passport",
+        "url": "https://www.wada-ama.org/en/athlete-biological-passport"
+      }
+    ],
+    "caseIds": [
+      "festina-1998",
+      "lance-armstrong-2012",
+      "operacion-puerto-2006"
+    ]
+  },
+  {
+    "id": "hgh",
+    "category": "S2",
+    "name": {
+      "ko": "인간 성장호르몬 (hGH)",
+      "en": "Human Growth Hormone (hGH)"
+    },
+    "aliases": {
+      "ko": [
+        "성장호르몬",
+        "소마트로핀"
+      ],
+      "en": [
+        "growth hormone",
+        "somatropin",
+        "GH"
+      ]
+    },
+    "effects": {
+      "ko": "성장호르몬은 뇌하수체에서 분비되어 성장과 대사를 조절하는 호르몬입니다. 의학적으로는 성장호르몬 결핍증 치료에 사용되며, 스포츠에서는 승인 없이 사용하면 상시 금지됩니다.",
+      "en": "Growth hormone is secreted by the pituitary gland and regulates growth and metabolism. It is used medically to treat growth hormone deficiency, and in sport it is prohibited at all times without an exemption."
+    },
+    "sideEffects": {
+      "ko": "관절 통증, 부종, 손목터널증후군, 인슐린 저항성과 당뇨병 위험 증가가 보고되어 있습니다. 장기 사용 시 말단비대증과 유사한 변화나 심장 비대가 나타날 수 있습니다.",
+      "en": "Reported risks include joint pain, fluid retention, carpal tunnel syndrome, insulin resistance and an increased risk of diabetes. Long-term misuse may cause acromegaly-like changes and enlargement of the heart."
+    },
+    "detection": {
+      "ko": "혈액 검사로 확인하며, 성장호르몬의 아형 비율을 보는 아이소폼 검사와 관련 생체지표를 보는 바이오마커 검사가 쓰입니다.",
+      "en": "Detected by blood tests, using the isoform test, which examines the ratio of growth hormone variants, and the biomarkers test, which examines related markers."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Growth hormone",
+        "url": "https://en.wikipedia.org/wiki/Growth_hormone"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "hcg",
+    "category": "S2",
+    "name": {
+      "ko": "인간 융모성 생식샘자극호르몬 (hCG)",
+      "en": "Human Chorionic Gonadotrophin (hCG)"
+    },
+    "aliases": {
+      "ko": [
+        "융모성 생식샘자극호르몬",
+        "hCG"
+      ],
+      "en": [
+        "chorionic gonadotropin",
+        "hCG"
+      ]
+    },
+    "effects": {
+      "ko": "hCG는 임신 중 태반에서 분비되는 호르몬으로, 남성에게서는 체내 테스토스테론 생성을 자극합니다. 이 때문에 남성 선수에게는 상시 금지됩니다.",
+      "en": "hCG is a hormone produced by the placenta during pregnancy, and in men it stimulates the body's own testosterone production. For this reason it is prohibited at all times for male athletes."
+    },
+    "sideEffects": {
+      "ko": "호르몬 균형 교란, 여성형 유방, 두통, 기분 변화 등이 보고되어 있습니다. 의료 감독 없는 사용은 생식 기능에 영향을 줄 수 있습니다.",
+      "en": "Reported effects include hormonal imbalance, breast enlargement in men, headaches and mood changes. Use without medical supervision can affect reproductive function."
+    },
+    "detection": {
+      "ko": "소변 검사에서 면역분석법으로 확인하며, 필요 시 질량분석법으로 확증합니다.",
+      "en": "Detected in urine tests using immunoassays, with confirmation by mass spectrometry where needed."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Human chorionic gonadotropin",
+        "url": "https://en.wikipedia.org/wiki/Human_chorionic_gonadotropin"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "salbutamol",
+    "category": "S3",
+    "name": {
+      "ko": "살부타몰",
+      "en": "Salbutamol"
+    },
+    "aliases": {
+      "ko": [
+        "알부테롤",
+        "벤토린"
+      ],
+      "en": [
+        "albuterol",
+        "Ventolin"
+      ]
+    },
+    "effects": {
+      "ko": "살부타몰은 기관지를 확장시키는 대표적인 천식 치료제입니다. 일부 흡입 사용은 금지목록에 정한 조건 내에서 허용되지만, 그 조건을 넘는 경우 규정 위반이 될 수 있습니다.",
+      "en": "Salbutamol is a widely used bronchodilator for treating asthma. Certain inhaled use is permitted within conditions set by the Prohibited List, but going beyond those conditions can result in a violation."
+    },
+    "sideEffects": {
+      "ko": "손떨림, 두근거림, 빈맥, 두통이 나타날 수 있습니다. 과도한 사용은 심장 리듬 이상과 저칼륨혈증을 일으킬 수 있습니다.",
+      "en": "It can cause tremor, palpitations, a fast heart rate and headaches. Excessive use may lead to heart rhythm disturbances and low potassium levels."
+    },
+    "detection": {
+      "ko": "소변 검사로 농도를 측정하며, 금지목록의 기준을 넘는 결과는 비정상 분석 결과로 처리됩니다. 선수는 필요 시 약동학 연구를 통해 치료 목적 사용임을 소명할 수 있습니다.",
+      "en": "Measured in urine tests, and results above the threshold in the Prohibited List are reported as adverse analytical findings. Athletes may seek to show therapeutic use through a controlled pharmacokinetic study."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Salbutamol",
+        "url": "https://en.wikipedia.org/wiki/Salbutamol"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "terbutaline",
+    "category": "S3",
+    "name": {
+      "ko": "테르부탈린",
+      "en": "Terbutaline"
+    },
+    "aliases": {
+      "ko": [
+        "브리카닐"
+      ],
+      "en": [
+        "Bricanyl"
+      ]
+    },
+    "effects": {
+      "ko": "테르부탈린은 천식과 기관지 경련 치료에 쓰이는 베타-2 작용제입니다. 금지목록에서 예외로 허용된 일부 흡입제에 포함되지 않으므로, 치료가 필요한 선수는 TUE를 받아야 합니다.",
+      "en": "Terbutaline is a beta-2 agonist used to treat asthma and bronchospasm. It is not among the few inhaled beta-2 agonists permitted by the Prohibited List, so athletes who need it must obtain a TUE."
+    },
+    "sideEffects": {
+      "ko": "손떨림, 두근거림, 빈맥, 두통, 근육 경련이 나타날 수 있습니다. 과도한 사용은 심장 리듬 이상과 저칼륨혈증 위험을 높입니다.",
+      "en": "It can cause tremor, palpitations, a fast heart rate, headaches and muscle cramps. Excessive use increases the risk of heart rhythm disturbances and low potassium levels."
+    },
+    "detection": {
+      "ko": "소변 검사에서 질량분석법으로 확인합니다.",
+      "en": "Detected in urine tests by mass spectrometry."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Terbutaline",
+        "url": "https://en.wikipedia.org/wiki/Terbutaline"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "meldonium",
+    "category": "S4",
+    "name": {
+      "ko": "멜도니움",
+      "en": "Meldonium"
+    },
+    "aliases": {
+      "ko": [
+        "밀드로네이트"
+      ],
+      "en": [
+        "Mildronate",
+        "mildronate"
+      ]
+    },
+    "effects": {
+      "ko": "멜도니움은 라트비아에서 개발된 허혈성 심질환 치료제로, 세포의 에너지 대사를 조절합니다. 미국과 EU에서는 승인되지 않았으며, 2016년부터 대사 조절제로 금지목록에 추가되었습니다.",
+      "en": "Meldonium is a medicine developed in Latvia for ischaemic heart conditions that modulates cellular energy metabolism. It is not approved in the United States or the EU, and it was added to the Prohibited List as a metabolic modulator from 2016."
+    },
+    "sideEffects": {
+      "ko": "알레르기 반응, 소화 불량, 두근거림, 혈압 변화 등이 보고되어 있습니다. 건강한 운동선수에 대한 장기적 안전성은 확립되지 않았습니다.",
+      "en": "Reported effects include allergic reactions, digestive upset, palpitations and blood pressure changes. Its long-term safety in healthy athletes has not been established."
+    },
+    "detection": {
+      "ko": "소변 검사에서 액체 크로마토그래피-질량분석법으로 확인합니다.",
+      "en": "Detected in urine tests by liquid chromatography-mass spectrometry."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Meldonium",
+        "url": "https://en.wikipedia.org/wiki/Meldonium"
+      }
+    ],
+    "caseIds": [
+      "maria-sharapova-2016"
+    ]
+  },
+  {
+    "id": "trimetazidine",
+    "category": "S4",
+    "name": {
+      "ko": "트리메타지딘",
+      "en": "Trimetazidine"
+    },
+    "aliases": {
+      "ko": [
+        "TMZ"
+      ],
+      "en": [
+        "TMZ"
+      ]
+    },
+    "effects": {
+      "ko": "트리메타지딘은 협심증 치료에 쓰이는 약물로, 심장 근육의 에너지 대사를 조절합니다. 2014년 흥분제로 금지목록에 올랐고, 2015년부터 대사 조절제(S4)로 재분류되어 상시 금지됩니다.",
+      "en": "Trimetazidine is a medicine used to treat angina that modulates energy metabolism in heart muscle. It was added to the Prohibited List as a stimulant in 2014 and has been classified as a metabolic modulator (S4), prohibited at all times, since 2015."
+    },
+    "sideEffects": {
+      "ko": "어지러움, 소화 불량, 두통이 보고되어 있으며, 드물게 파킨슨병과 유사한 운동 장애가 나타날 수 있습니다.",
+      "en": "Reported side effects include dizziness, digestive upset and headaches, and in rare cases movement disorders resembling Parkinson's disease."
+    },
+    "detection": {
+      "ko": "소변 검사에서 액체 크로마토그래피-질량분석법으로 확인합니다.",
+      "en": "Detected in urine tests by liquid chromatography-mass spectrometry."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Trimetazidine",
+        "url": "https://en.wikipedia.org/wiki/Trimetazidine"
+      }
+    ],
+    "caseIds": [
+      "kamila-valieva-2024"
+    ]
+  },
+  {
+    "id": "tamoxifen",
+    "category": "S4",
+    "name": {
+      "ko": "타목시펜",
+      "en": "Tamoxifen"
+    },
+    "aliases": {
+      "ko": [
+        "항에스트로겐제"
+      ],
+      "en": [
+        "Nolvadex"
+      ]
+    },
+    "effects": {
+      "ko": "타목시펜은 유방암 치료에 쓰이는 선택적 에스트로겐 수용체 조절제(SERM)입니다. 호르몬 균형에 영향을 주기 때문에 항에스트로겐 물질로 분류되어 상시 금지됩니다.",
+      "en": "Tamoxifen is a selective oestrogen receptor modulator (SERM) used to treat breast cancer. Because it affects hormonal balance, it is classed as an anti-oestrogenic substance and prohibited at all times."
+    },
+    "sideEffects": {
+      "ko": "안면 홍조, 혈전, 자궁내막 이상, 시력 문제가 보고되어 있습니다. 의료 감독 없는 사용은 심각한 합병증으로 이어질 수 있습니다.",
+      "en": "Reported risks include hot flushes, blood clots, changes to the lining of the womb and vision problems. Use without medical supervision can lead to serious complications."
+    },
+    "detection": {
+      "ko": "소변 검사에서 질량분석법으로 대사체를 확인합니다.",
+      "en": "Detected in urine tests by identifying its metabolites with mass spectrometry."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Tamoxifen",
+        "url": "https://en.wikipedia.org/wiki/Tamoxifen"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "furosemide",
+    "category": "S5",
+    "name": {
+      "ko": "푸로세미드",
+      "en": "Furosemide"
+    },
+    "aliases": {
+      "ko": [
+        "라식스"
+      ],
+      "en": [
+        "Lasix",
+        "frusemide"
+      ]
+    },
+    "effects": {
+      "ko": "푸로세미드는 부종과 고혈압 치료에 쓰이는 강력한 이뇨제입니다. 이뇨제는 도핑 검사의 신뢰성을 훼손할 수 있고 체급 종목에서 급격한 체중 감량에 오용될 수 있어 상시 금지됩니다.",
+      "en": "Furosemide is a powerful diuretic used to treat oedema and high blood pressure. Diuretics are prohibited at all times because they can undermine the integrity of doping control and may be misused for rapid weight loss in weight-category sports."
+    },
+    "sideEffects": {
+      "ko": "탈수, 전해질 불균형, 저혈압, 근육 경련이 나타날 수 있습니다. 심한 경우 부정맥과 신장 손상으로 이어질 수 있습니다.",
+      "en": "It can cause dehydration, electrolyte imbalance, low blood pressure and muscle cramps. In severe cases it may lead to heart rhythm disturbances and kidney damage."
+    },
+    "detection": {
+      "ko": "소변 검사에서 질량분석법으로 확인합니다. 이뇨제가 다른 금지 물질과 함께 검출되면 별도의 규정 위반으로 다뤄질 수 있습니다.",
+      "en": "Detected in urine tests by mass spectrometry. Detection of a diuretic alongside another prohibited substance can be treated as a separate rule violation."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Furosemide",
+        "url": "https://en.wikipedia.org/wiki/Furosemide"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "hydrochlorothiazide",
+    "category": "S5",
+    "name": {
+      "ko": "하이드로클로로티아자이드",
+      "en": "Hydrochlorothiazide"
+    },
+    "aliases": {
+      "ko": [
+        "HCTZ",
+        "티아자이드계 이뇨제"
+      ],
+      "en": [
+        "HCTZ",
+        "thiazide diuretic"
+      ]
+    },
+    "effects": {
+      "ko": "하이드로클로로티아자이드는 고혈압 치료에 널리 쓰이는 티아자이드계 이뇨제입니다. 이뇨제 전반과 마찬가지로 도핑 검사 무결성 보호와 선수 건강을 이유로 상시 금지됩니다.",
+      "en": "Hydrochlorothiazide is a thiazide diuretic widely used to treat high blood pressure. Like diuretics in general, it is prohibited at all times to protect the integrity of doping control and athlete health."
+    },
+    "sideEffects": {
+      "ko": "탈수, 저칼륨혈증 등 전해질 이상, 어지러움이 나타날 수 있습니다. 운동 중 탈수와 겹치면 열 질환 위험이 커집니다.",
+      "en": "It can cause dehydration, electrolyte disturbances such as low potassium, and dizziness. Combined with dehydration during exercise, it increases the risk of heat illness."
+    },
+    "detection": {
+      "ko": "소변 검사에서 질량분석법으로 확인합니다. 복합 고혈압 약이나 오염된 보충제에서 의도치 않게 검출되는 사례가 있어 복용 약 확인이 중요합니다.",
+      "en": "Detected in urine tests by mass spectrometry. Inadvertent findings from combination blood pressure medicines or contaminated supplements have occurred, so checking medications is important."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Hydrochlorothiazide",
+        "url": "https://en.wikipedia.org/wiki/Hydrochlorothiazide"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "amphetamine",
+    "category": "S6",
+    "name": {
+      "ko": "암페타민",
+      "en": "Amphetamine"
+    },
+    "aliases": {
+      "ko": [
+        "암페타민류"
+      ],
+      "en": [
+        "amphetamines",
+        "speed"
+      ]
+    },
+    "effects": {
+      "ko": "암페타민은 중추신경계를 강하게 자극하는 흥분제로, 일부 국가에서 ADHD 치료제로 쓰입니다. 피로감을 줄이고 각성을 높이는 작용 때문에 경기기간 중 금지됩니다.",
+      "en": "Amphetamine is a potent central nervous system stimulant, used in some countries to treat ADHD. It is prohibited in-competition because it reduces the sensation of fatigue and increases alertness."
+    },
+    "sideEffects": {
+      "ko": "심박수와 혈압 상승, 체온 상승, 부정맥, 불안과 공격성이 나타날 수 있으며 의존성이 있습니다. 1967년 투르 드 프랑스에서 사이클 선수 톰 심슨이 사망한 사건에 암페타민이 관련된 것으로 알려져 있습니다.",
+      "en": "It can raise heart rate, blood pressure and body temperature, cause arrhythmias, anxiety and aggression, and is addictive. Amphetamine was implicated in the death of cyclist Tom Simpson during the 1967 Tour de France."
+    },
+    "detection": {
+      "ko": "경기기간 중 소변 검사에서 질량분석법으로 확인합니다. ADHD 등으로 치료가 필요한 선수는 TUE를 신청할 수 있습니다.",
+      "en": "Detected in in-competition urine tests by mass spectrometry. Athletes who need it for conditions such as ADHD can apply for a TUE."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Amphetamine",
+        "url": "https://en.wikipedia.org/wiki/Amphetamine"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "ephedrine",
+    "category": "S6",
+    "name": {
+      "ko": "에페드린",
+      "en": "Ephedrine"
+    },
+    "aliases": {
+      "ko": [
+        "마황 알칼로이드"
+      ],
+      "en": [
+        "ephedra alkaloid"
+      ]
+    },
+    "effects": {
+      "ko": "에페드린은 마황에서 유래한 흥분제로, 일부 감기약과 코막힘 약에 들어 있습니다. 경기기간 중 소변 내 농도가 기준을 넘으면 금지되는 '특정 물질'입니다.",
+      "en": "Ephedrine is a stimulant derived from the ephedra plant and is found in some cold and decongestant medicines. It is a Specified Substance prohibited in-competition when its urinary concentration exceeds a threshold."
+    },
+    "sideEffects": {
+      "ko": "혈압 상승, 두근거림, 불면, 불안이 나타날 수 있습니다. 심한 경우 뇌졸중과 심장 발작이 보고되어 일부 국가에서는 에페드라 보충제가 규제되었습니다.",
+      "en": "It can cause raised blood pressure, palpitations, insomnia and anxiety. Strokes and heart attacks have been reported in severe cases, leading some countries to restrict ephedra supplements."
+    },
+    "detection": {
+      "ko": "경기기간 중 소변 검사로 농도를 측정합니다. 일반 의약품에도 들어 있을 수 있어 복용 전 성분 확인이 중요합니다.",
+      "en": "Measured in in-competition urine tests. Because it can be present in over-the-counter medicines, checking ingredients before use is important."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Ephedrine",
+        "url": "https://en.wikipedia.org/wiki/Ephedrine"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "morphine",
+    "category": "S7",
+    "name": {
+      "ko": "모르핀",
+      "en": "Morphine"
+    },
+    "aliases": {
+      "ko": [
+        "아편 알칼로이드"
+      ],
+      "en": [
+        "opiate"
+      ]
+    },
+    "effects": {
+      "ko": "모르핀은 아편에서 추출되는 강력한 마약성 진통제로, 심한 통증 치료에 쓰입니다. 통증을 느끼지 못하게 하여 부상 상태에서 경기를 계속하게 만들 수 있어 경기기간 중 금지됩니다.",
+      "en": "Morphine is a powerful opioid painkiller derived from opium and used to treat severe pain. It is prohibited in-competition because suppressing pain can lead athletes to keep competing while injured."
+    },
+    "sideEffects": {
+      "ko": "졸음, 판단력 저하, 호흡 억제, 변비가 나타날 수 있으며 강한 의존성이 있습니다. 통증 신호가 가려져 부상이 악화될 위험이 큽니다.",
+      "en": "It can cause drowsiness, impaired judgement, respiratory depression and constipation, and is highly addictive. Suppressed pain signals greatly increase the risk of worsening an injury."
+    },
+    "detection": {
+      "ko": "경기기간 중 소변 검사에서 질량분석법으로 확인합니다. 코데인 등 다른 물질의 대사로도 검출될 수 있어 결과 해석에 이를 고려합니다.",
+      "en": "Detected in in-competition urine tests by mass spectrometry. Because it can also appear as a metabolite of substances such as codeine, this is considered when interpreting results."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Morphine",
+        "url": "https://en.wikipedia.org/wiki/Morphine"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "fentanyl",
+    "category": "S7",
+    "name": {
+      "ko": "펜타닐",
+      "en": "Fentanyl"
+    },
+    "aliases": {
+      "ko": [
+        "합성 오피오이드"
+      ],
+      "en": [
+        "synthetic opioid"
+      ]
+    },
+    "effects": {
+      "ko": "펜타닐은 모르핀보다 훨씬 강력한 합성 오피오이드 진통제로, 마취와 심한 통증 관리에 쓰입니다. 마약성 진통제로서 경기기간 중 금지됩니다.",
+      "en": "Fentanyl is a synthetic opioid painkiller far more potent than morphine, used in anaesthesia and severe pain management. As a narcotic it is prohibited in-competition."
+    },
+    "sideEffects": {
+      "ko": "치명적인 호흡 억제 위험이 매우 크고, 강한 의존성과 과다 복용 사망 위험이 있습니다.",
+      "en": "It carries a very high risk of fatal respiratory depression, strong addiction and death from overdose."
+    },
+    "detection": {
+      "ko": "경기기간 중 소변 검사에서 질량분석법으로 확인합니다.",
+      "en": "Detected in in-competition urine tests by mass spectrometry."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Fentanyl",
+        "url": "https://en.wikipedia.org/wiki/Fentanyl"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "thc",
+    "category": "S8",
+    "name": {
+      "ko": "THC (테트라하이드로칸나비놀)",
+      "en": "THC (Tetrahydrocannabinol)"
+    },
+    "aliases": {
+      "ko": [
+        "대마",
+        "마리화나",
+        "테트라하이드로칸나비놀"
+      ],
+      "en": [
+        "cannabis",
+        "marijuana",
+        "tetrahydrocannabinol",
+        "delta-9-THC"
+      ]
+    },
+    "effects": {
+      "ko": "THC는 대마의 주요 향정신성 성분입니다. 건강 위험, 스포츠 정신 위배 등을 이유로 경기기간 중 금지되며, 소변 내 농도가 기준을 넘을 때 위반으로 판정됩니다.",
+      "en": "THC is the main psychoactive component of cannabis. It is prohibited in-competition on grounds including health risk and the spirit of sport, and a violation is found when its urinary concentration exceeds a threshold."
+    },
+    "sideEffects": {
+      "ko": "반응 속도와 판단력, 협응 능력이 떨어져 경기 중 부상 위험이 커질 수 있습니다. 불안, 기억력 저하가 나타날 수 있습니다.",
+      "en": "It can impair reaction time, judgement and coordination, increasing the risk of injury during competition. Anxiety and memory impairment may also occur."
+    },
+    "detection": {
+      "ko": "경기기간 중 소변 검사로 대사체 농도를 측정합니다. 경기기간 외 사용이 확인되고 경기력과 무관한 경우 '남용 물질' 규정에 따라 제재가 감경될 수 있습니다.",
+      "en": "Its metabolite is measured in in-competition urine tests. Where use occurred out-of-competition and was unrelated to sport performance, sanctions may be reduced under the Substances of Abuse rules."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Tetrahydrocannabinol",
+        "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "jwh-018",
+    "category": "S8",
+    "name": {
+      "ko": "JWH-018 (합성 카나비노이드)",
+      "en": "JWH-018 (synthetic cannabinoid)"
+    },
+    "aliases": {
+      "ko": [
+        "합성 대마",
+        "스파이스"
+      ],
+      "en": [
+        "Spice",
+        "K2",
+        "synthetic cannabis"
+      ]
+    },
+    "effects": {
+      "ko": "JWH-018은 연구 목적으로 합성된 카나비노이드로, '스파이스' 같은 합성 대마 제품에서 발견되었습니다. THC와 유사하게 카나비노이드 수용체에 작용하며 경기기간 중 금지됩니다.",
+      "en": "JWH-018 is a cannabinoid synthesised for research and has been found in synthetic cannabis products such as 'Spice'. It acts on cannabinoid receptors in a similar way to THC and is prohibited in-competition."
+    },
+    "sideEffects": {
+      "ko": "심한 불안, 환각, 빈맥, 발작 등이 보고되어 있으며 천연 대마보다 예측하기 어려운 위험이 있습니다. 제품마다 성분이 달라 위험이 더 큽니다.",
+      "en": "Severe anxiety, hallucinations, a fast heart rate and seizures have been reported, with less predictable risks than natural cannabis. Varying product contents add to the danger."
+    },
+    "detection": {
+      "ko": "경기기간 중 소변 검사에서 질량분석법으로 대사체를 확인합니다.",
+      "en": "Detected by identifying its metabolites in in-competition urine tests using mass spectrometry."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: JWH-018",
+        "url": "https://en.wikipedia.org/wiki/JWH-018"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "dexamethasone",
+    "category": "S9",
+    "name": {
+      "ko": "덱사메타손",
+      "en": "Dexamethasone"
+    },
+    "aliases": {
+      "ko": [
+        "스테로이드 소염제"
+      ],
+      "en": [
+        "corticosteroid"
+      ]
+    },
+    "effects": {
+      "ko": "덱사메타손은 강력한 항염증·면역억제 작용을 가진 글루코코르티코이드입니다. 경기기간 중 특정 사용 방식이 금지되며, 치료가 필요하면 TUE를 받아야 합니다.",
+      "en": "Dexamethasone is a glucocorticoid with strong anti-inflammatory and immunosuppressive effects. Certain forms of use are prohibited in-competition, and athletes who need it for treatment must obtain a TUE."
+    },
+    "sideEffects": {
+      "ko": "혈당 상승, 수면 장애, 기분 변화, 감염 위험 증가가 나타날 수 있습니다. 장기 사용 시 골다공증, 근육 약화, 부신 기능 억제가 생길 수 있습니다.",
+      "en": "It can raise blood sugar, disturb sleep, affect mood and increase infection risk. Long-term use can cause osteoporosis, muscle weakness and adrenal suppression."
+    },
+    "detection": {
+      "ko": "경기기간 중 소변 검사에서 질량분석법으로 확인하며, 보고 기준을 넘는 경우 비정상 분석 결과로 처리됩니다.",
+      "en": "Detected in in-competition urine tests by mass spectrometry, with results above the reporting level treated as adverse analytical findings."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Dexamethasone",
+        "url": "https://en.wikipedia.org/wiki/Dexamethasone"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "prednisolone",
+    "category": "S9",
+    "name": {
+      "ko": "프레드니솔론",
+      "en": "Prednisolone"
+    },
+    "aliases": {
+      "ko": [
+        "프레드니손 대사체"
+      ],
+      "en": [
+        "prednisone metabolite"
+      ]
+    },
+    "effects": {
+      "ko": "프레드니솔론은 천식, 알레르기, 자가면역질환 등에 쓰이는 글루코코르티코이드입니다. 경기기간 중 특정 사용 방식이 금지되며, 의료적 필요가 있으면 TUE 절차를 거쳐야 합니다.",
+      "en": "Prednisolone is a glucocorticoid used for asthma, allergies and autoimmune conditions. Certain forms of use are prohibited in-competition, and athletes with a medical need must go through the TUE process."
+    },
+    "sideEffects": {
+      "ko": "혈당 상승, 체액 저류, 기분 변화, 면역력 저하가 나타날 수 있습니다. 장기 사용 시 뼈 약화와 부신 기능 억제 위험이 있습니다.",
+      "en": "It can raise blood sugar, cause fluid retention and mood changes, and weaken immunity. Long-term use carries risks of bone weakening and adrenal suppression."
+    },
+    "detection": {
+      "ko": "경기기간 중 소변 검사에서 질량분석법으로 확인합니다.",
+      "en": "Detected in in-competition urine tests by mass spectrometry."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Prednisolone",
+        "url": "https://en.wikipedia.org/wiki/Prednisolone"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "blood-transfusion",
+    "category": "M1",
+    "name": {
+      "ko": "수혈 (혈액 도핑)",
+      "en": "Blood Transfusion (blood doping)"
+    },
+    "aliases": {
+      "ko": [
+        "혈액 도핑",
+        "자가 수혈",
+        "타가 수혈"
+      ],
+      "en": [
+        "blood doping",
+        "autologous transfusion",
+        "homologous transfusion"
+      ]
+    },
+    "effects": {
+      "ko": "혈액 도핑은 적혈구를 인위적으로 늘려 혈액의 산소 운반 능력을 높이려는 금지 방법입니다. 자신의 혈액이든 타인의 혈액이든 체내에 다시 투입하는 행위는 상시 금지되며, 적발 시 엄중한 제재를 받습니다.",
+      "en": "Blood doping is a prohibited method that artificially increases red blood cells to raise the blood's oxygen-carrying capacity. Reintroducing either one's own or another person's blood is prohibited at all times and leads to severe sanctions."
+    },
+    "sideEffects": {
+      "ko": "혈액이 지나치게 끈끈해져 혈전, 뇌졸중, 심부전 위험이 커집니다. 혈액의 부적절한 보관과 취급은 감염, 수혈 반응, 혈액형 불일치로 인한 치명적 합병증을 일으킬 수 있습니다.",
+      "en": "Thickened blood raises the risk of clots, stroke and heart failure. Improper storage and handling of blood can cause infection, transfusion reactions and fatal complications from mismatched blood."
+    },
+    "detection": {
+      "ko": "타인 혈액 수혈은 혈액 검사로 서로 다른 적혈구 집단을 확인해 적발합니다. 자가 수혈은 선수 생체여권(ABP) 혈액 모듈의 비정상적 변화로 간접 확인합니다.",
+      "en": "Transfusion of another person's blood is detected by blood tests that identify mixed red blood cell populations. Transfusion of one's own blood is identified indirectly through abnormal changes in the haematological module of the Athlete Biological Passport (ABP)."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Blood doping",
+        "url": "https://en.wikipedia.org/wiki/Blood_doping"
+      }
+    ],
+    "caseIds": [
+      "lance-armstrong-2012",
+      "operacion-puerto-2006"
+    ]
+  },
+  {
+    "id": "hboc",
+    "category": "M1",
+    "name": {
+      "ko": "헤모글로빈 기반 산소 운반체 (HBOC)",
+      "en": "Haemoglobin-Based Oxygen Carriers (HBOCs)"
+    },
+    "aliases": {
+      "ko": [
+        "인공 산소 운반체",
+        "인공 혈액"
+      ],
+      "en": [
+        "HBOC",
+        "artificial oxygen carriers",
+        "blood substitutes"
+      ]
+    },
+    "effects": {
+      "ko": "HBOC는 수혈용 혈액을 대신하기 위해 개발된 인공 산소 운반 물질입니다. 산소 운반과 전달을 인위적으로 향상시키는 행위로서 상시 금지됩니다.",
+      "en": "HBOCs are artificial oxygen-carrying products developed as substitutes for transfused blood. As a means of artificially enhancing oxygen transport and delivery, their use is prohibited at all times."
+    },
+    "sideEffects": {
+      "ko": "고혈압, 신장 손상, 심근경색 등 심각한 부작용이 임상시험에서 보고되었습니다. 대부분의 국가에서 일반 의료용으로 승인되지 않았습니다.",
+      "en": "Clinical trials reported serious adverse effects including high blood pressure, kidney damage and heart attack. They are not approved for general medical use in most countries."
+    },
+    "detection": {
+      "ko": "혈액 검사에서 전기영동 및 질량분석 기반 분석법으로 확인합니다.",
+      "en": "Detected in blood tests using electrophoresis and mass spectrometry-based methods."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Blood substitute",
+        "url": "https://en.wikipedia.org/wiki/Blood_substitute"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "m2-concept",
+    "category": "M2",
+    "name": {
+      "ko": "시료 변조 및 정맥 주입 (개념)",
+      "en": "Sample Tampering and IV Infusion (concept)"
+    },
+    "aliases": {
+      "ko": [
+        "시료 바꿔치기",
+        "시료 변조",
+        "정맥 주입"
+      ],
+      "en": [
+        "sample tampering",
+        "sample swapping",
+        "intravenous infusion"
+      ]
+    },
+    "effects": {
+      "ko": "M2는 특정 물질이 아니라 도핑 검사 시료의 무결성을 훼손하는 행위와 일정 기준을 넘는 정맥 주입을 금지하는 개념입니다. 시료 바꿔치기나 변조는 도핑 검사 체계 전체의 신뢰를 무너뜨리는 중대한 위반으로 다뤄집니다.",
+      "en": "M2 is not a substance but a concept prohibiting acts that compromise the integrity of doping control samples, as well as intravenous infusions above a set limit. Sample substitution or adulteration is treated as a grave violation that undermines trust in the whole testing system."
+    },
+    "sideEffects": {
+      "ko": "의료적 필요 없이 이뤄지는 정맥 주입은 감염, 혈관 손상, 체액 과부하의 위험이 있습니다. 시료 변조는 건강 위험과 별개로 장기간 자격 정지 등 무거운 제재 대상입니다.",
+      "en": "Intravenous infusions without medical need risk infection, vein damage and fluid overload. Sample tampering, regardless of health risk, results in heavy sanctions such as long periods of ineligibility."
+    },
+    "detection": {
+      "ko": "시료 용기 검사, 시료 수집 절차 기록, 법의학적 분석, 내부 고발자 증언과 조사를 통해 적발됩니다. 러시아 국가 주도 도핑 사건에서는 독립 조사로 대규모 시료 조작이 확인되었습니다.",
+      "en": "Detected through inspection of sample bottles, sample collection records, forensic analysis, whistleblower testimony and investigations. In the Russian state-sponsored doping case, independent investigations confirmed large-scale sample manipulation."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      }
+    ],
+    "caseIds": [
+      "russian-state-doping"
+    ]
+  },
+  {
+    "id": "m3-concept",
+    "category": "M3",
+    "name": {
+      "ko": "유전자 및 세포 도핑 (개념)",
+      "en": "Gene and Cell Doping (concept)"
+    },
+    "aliases": {
+      "ko": [
+        "유전자 도핑",
+        "세포 도핑",
+        "유전자 편집"
+      ],
+      "en": [
+        "gene doping",
+        "cell doping",
+        "gene editing"
+      ]
+    },
+    "effects": {
+      "ko": "M3는 특정 물질이 아니라 유전 물질, 유전자 편집 기술, 정상 또는 유전적으로 변형된 세포를 이용해 경기력을 높이려는 행위를 금지하는 개념입니다. 유전자 치료 기술의 발전에 대비해 2003년부터 금지목록에 포함되었습니다.",
+      "en": "M3 is not a substance but a concept prohibiting the use of nucleic acids, gene editing technologies, or normal or genetically modified cells to enhance performance. It has been part of the Prohibited List since 2003 in anticipation of advances in gene therapy."
+    },
+    "sideEffects": {
+      "ko": "면역 반응, 암 발생 등 예측할 수 없는 장기적 위험이 있으며, 유전적 변화는 되돌리기 어려울 수 있습니다. 운동선수에게 안전하다고 입증된 방법은 없습니다.",
+      "en": "There are unpredictable long-term risks such as immune reactions and cancer, and genetic changes may be difficult to reverse. No method has been shown to be safe for athletes."
+    },
+    "detection": {
+      "ko": "WADA는 혈액 검사에서 유전자 도입 흔적을 찾는 분자생물학적 검사법(PCR 기반 등)을 개발·적용하고 있습니다.",
+      "en": "WADA has developed and applies molecular biology methods, such as PCR-based blood tests, to look for traces of introduced genetic material."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "propranolol",
+    "category": "P1",
+    "name": {
+      "ko": "프로프라놀롤",
+      "en": "Propranolol"
+    },
+    "aliases": {
+      "ko": [
+        "인데랄"
+      ],
+      "en": [
+        "Inderal"
+      ]
+    },
+    "effects": {
+      "ko": "프로프라놀롤은 고혈압, 부정맥, 불안 증상 치료에 쓰이는 베타 차단제입니다. 심박수와 손떨림을 줄이므로 사격, 양궁 등 정밀성이 중요한 특정 종목에서 금지됩니다.",
+      "en": "Propranolol is a beta-blocker used to treat high blood pressure, arrhythmias and symptoms of anxiety. Because it lowers heart rate and reduces tremor, it is prohibited in particular precision sports such as shooting and archery."
+    },
+    "sideEffects": {
+      "ko": "피로, 서맥, 저혈압, 어지러움이 나타날 수 있습니다. 천식 환자에게는 기관지 수축을 일으킬 수 있습니다.",
+      "en": "It can cause fatigue, a slow heart rate, low blood pressure and dizziness. In people with asthma it can trigger bronchospasm."
+    },
+    "detection": {
+      "ko": "해당 종목의 소변 검사에서 질량분석법으로 확인합니다.",
+      "en": "Detected in urine tests in the relevant sports by mass spectrometry."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Propranolol",
+        "url": "https://en.wikipedia.org/wiki/Propranolol"
+      }
+    ],
+    "caseIds": []
+  },
+  {
+    "id": "metoprolol",
+    "category": "P1",
+    "name": {
+      "ko": "메토프롤롤",
+      "en": "Metoprolol"
+    },
+    "aliases": {
+      "ko": [
+        "선택적 베타 차단제"
+      ],
+      "en": [
+        "selective beta-blocker"
+      ]
+    },
+    "effects": {
+      "ko": "메토프롤롤은 심장에 선택적으로 작용하는 베타 차단제로, 고혈압과 협심증 치료에 쓰입니다. 베타 차단제로서 금지목록 P1에 명시된 특정 종목에서 금지됩니다.",
+      "en": "Metoprolol is a cardioselective beta-blocker used to treat high blood pressure and angina. As a beta-blocker it is prohibited in the particular sports specified in section P1 of the Prohibited List."
+    },
+    "sideEffects": {
+      "ko": "피로, 서맥, 어지러움, 손발 냉증이 나타날 수 있습니다. 갑자기 중단하면 심장 증상이 악화될 수 있습니다.",
+      "en": "It can cause fatigue, a slow heart rate, dizziness and cold hands and feet. Stopping it suddenly can worsen heart symptoms."
+    },
+    "detection": {
+      "ko": "해당 종목의 소변 검사에서 질량분석법으로 확인합니다.",
+      "en": "Detected in urine tests in the relevant sports by mass spectrometry."
+    },
+    "sources": [
+      {
+        "title": "WADA Prohibited List",
+        "url": "https://www.wada-ama.org/en/prohibited-list"
+      },
+      {
+        "title": "Wikipedia: Metoprolol",
+        "url": "https://en.wikipedia.org/wiki/Metoprolol"
+      }
+    ],
+    "caseIds": []
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "id": "ben-johnson-1988",
+    "year": 1988,
+    "sport": "Athletics",
+    "title": { "ko": "벤 존슨, 1988 서울 올림픽 100m 금메달 박탈", "en": "Ben Johnson stripped of 1988 Seoul Olympic 100m gold" },
+    "summary": {
+      "ko": "캐나다의 단거리 선수 벤 존슨은 1988년 서울 올림픽 남자 100m 결승에서 세계 신기록으로 우승했으나, 경기 후 도핑 검사에서 동화 스테로이드인 스타노졸롤이 검출되었습니다. 이 사건은 올림픽 역사상 가장 유명한 도핑 사건 중 하나로, 이후 캐나다 정부의 두빈 조사위원회가 육상계의 광범위한 약물 사용 실태를 조사하는 계기가 되었습니다.",
+      "en": "Canadian sprinter Ben Johnson won the men's 100m final at the 1988 Seoul Olympics in world-record time, but his post-race test was positive for the anabolic steroid stanozolol. It became one of the most famous doping cases in Olympic history and led to the Canadian government's Dubin Inquiry into widespread drug use in athletics."
+    },
+    "outcome": {
+      "ko": "금메달이 박탈되어 2위였던 칼 루이스에게 돌아갔고, 존슨은 자격 정지 처분을 받았으며 세계 기록도 이후 무효화되었습니다. 1993년 다시 양성 반응이 나와 국제육상연맹으로부터 영구 자격 정지를 받았습니다.",
+      "en": "The gold medal was withdrawn and awarded to runner-up Carl Lewis, Johnson was suspended, and his world records were later rescinded. After another positive test in 1993, he received a lifetime ban from the IAAF."
+    },
+    "decision": { "body": "IF", "ref": "IOC / IAAF, 1988; IAAF lifetime ban, 1993" },
+    "substanceIds": ["stanozolol"],
+    "sources": [
+      { "title": "Wikipedia: Ben Johnson (sprinter)", "url": "https://en.wikipedia.org/wiki/Ben_Johnson_(sprinter)" }
+    ]
+  },
+  {
+    "id": "east-german-state-doping",
+    "year": 2000,
+    "sport": "Multiple sports",
+    "title": { "ko": "동독 국가 주도 도핑 프로그램", "en": "East German state doping programme" },
+    "summary": {
+      "ko": "1970~80년대 동독은 국가 계획에 따라 수많은 선수에게 동화 스테로이드를 체계적으로 투여했으며, 그중에는 미성년자도 많았고 선수 본인이 내용을 알지 못한 경우가 많았습니다. 통일 후 공개된 비밀경찰(슈타지) 문서 등을 통해 오랄-튜리나볼과 테스토스테론 제제 등이 사용된 실태가 드러났습니다. 많은 전직 선수들이 간 질환, 생식 기능 장애 등 장기적인 건강 피해를 호소했습니다.",
+      "en": "In the 1970s and 1980s, East Germany systematically gave anabolic steroids to large numbers of athletes under a state plan, many of them minors and often without their knowledge. Stasi files and other records disclosed after reunification revealed the use of substances such as Oral-Turinabol and testosterone preparations. Many former athletes have reported lasting health damage, including liver disease and reproductive problems."
+    },
+    "outcome": {
+      "ko": "2000년 베를린 법원은 동독 체육 지도자 만프레트 에발트와 스포츠 의학 책임자 만프레트 회프너를 선수들에 대한 상해 방조 혐의로 유죄 판결했습니다. 이후 독일 정부는 피해 선수들을 위한 보상 기금을 마련했습니다.",
+      "en": "In 2000 a Berlin court convicted East German sports chief Manfred Ewald and sports medicine director Manfred Höppner as accessories to bodily harm of athletes. The German government later set up compensation funds for victims."
+    },
+    "decision": { "body": "court", "ref": "Berlin Regional Court, July 2000" },
+    "substanceIds": ["testosterone"],
+    "sources": [
+      { "title": "Wikipedia: Doping in East Germany", "url": "https://en.wikipedia.org/wiki/Doping_in_East_Germany" }
+    ]
+  },
+  {
+    "id": "festina-1998",
+    "year": 1998,
+    "sport": "Cycling",
+    "title": { "ko": "1998 투르 드 프랑스 페스티나 사건", "en": "Festina affair, 1998 Tour de France" },
+    "summary": {
+      "ko": "1998년 투르 드 프랑스 개막 직전, 페스티나 팀 관계자의 차량에서 EPO를 비롯한 다량의 도핑 물질이 프랑스 세관에 적발되었습니다. 수사 결과 팀 차원의 조직적인 도핑이 드러났고, 여러 선수가 EPO 사용을 시인했습니다. 이 사건은 사이클계 도핑 문제를 세상에 알리고 1999년 세계반도핑기구(WADA) 설립을 앞당긴 계기로 평가됩니다.",
+      "en": "Just before the 1998 Tour de France, French customs found large quantities of doping products, including EPO, in the car of a Festina team staff member. Investigations revealed team-organised doping, and several riders admitted using EPO. The affair exposed doping in cycling and is regarded as a catalyst for the creation of the World Anti-Doping Agency (WADA) in 1999."
+    },
+    "outcome": {
+      "ko": "페스티나 팀은 대회에서 퇴출되었고, 관련 선수들은 자격 정지 처분을 받았습니다. 2000년 프랑스 릴 형사법원은 팀 관계자 등에게 유죄 판결을 내렸습니다.",
+      "en": "The Festina team was expelled from the race and the riders involved were suspended. In 2000 the criminal court in Lille, France, convicted team staff and others."
+    },
+    "decision": { "body": "court", "ref": "Lille Criminal Court, December 2000" },
+    "substanceIds": ["epo"],
+    "sources": [
+      { "title": "Wikipedia: Festina affair", "url": "https://en.wikipedia.org/wiki/Festina_affair" }
+    ]
+  },
+  {
+    "id": "balco-marion-jones-2007",
+    "year": 2007,
+    "sport": "Athletics",
+    "title": { "ko": "BALCO 스캔들과 매리언 존스", "en": "BALCO scandal and Marion Jones" },
+    "summary": {
+      "ko": "미국 캘리포니아의 BALCO 연구소가 검사에 걸리지 않도록 설계된 스테로이드 THG 등을 여러 종목의 선수들에게 공급한 사실이 2003년 연방 수사로 드러났습니다. 시드니 2000 올림픽 육상 스타였던 매리언 존스는 오랫동안 부인했으나, 2007년 THG를 사용했다고 시인하고 연방 수사관에게 거짓말을 한 혐의를 인정했습니다.",
+      "en": "A 2003 federal investigation revealed that the BALCO laboratory in California had supplied athletes in several sports with THG, a steroid designed to escape detection, and other substances. Marion Jones, an athletics star of the Sydney 2000 Olympics, denied it for years before admitting in 2007 that she had used THG and had lied to federal investigators."
+    },
+    "outcome": {
+      "ko": "존스는 미국반도핑기구(USADA)의 자격 정지와 2000년 9월 이후 기록 실격 처분을 받아들였고, IOC는 시드니 올림픽 메달 5개를 박탈했습니다. 2008년 연방 수사관에 대한 위증으로 징역 6개월을 선고받았습니다.",
+      "en": "Jones accepted a suspension from the U.S. Anti-Doping Agency (USADA) and the disqualification of her results from September 2000, and the IOC stripped her five Sydney Olympic medals. In 2008 she was sentenced to six months in prison for lying to federal investigators."
+    },
+    "decision": { "body": "NADO", "ref": "USADA, October 2007" },
+    "substanceIds": ["thg"],
+    "sources": [
+      { "title": "Wikipedia: BALCO scandal", "url": "https://en.wikipedia.org/wiki/BALCO_scandal" },
+      { "title": "Wikipedia: Marion Jones", "url": "https://en.wikipedia.org/wiki/Marion_Jones" }
+    ]
+  },
+  {
+    "id": "lance-armstrong-2012",
+    "year": 2012,
+    "sport": "Cycling",
+    "title": { "ko": "랜스 암스트롱, 투르 드 프랑스 7회 우승 박탈", "en": "Lance Armstrong stripped of seven Tour de France titles" },
+    "summary": {
+      "ko": "미국반도핑기구(USADA)는 2012년 '이유서(Reasoned Decision)'를 통해 랜스 암스트롱과 US 포스탈 서비스 팀이 EPO, 수혈, 테스토스테론 등을 이용한 조직적 도핑을 벌였다고 발표했습니다. USADA는 이를 스포츠 역사상 가장 정교하고 전문화된 도핑 프로그램이라고 표현했으며, 다수의 전 팀 동료 증언이 근거가 되었습니다.",
+      "en": "In its 2012 Reasoned Decision, the U.S. Anti-Doping Agency (USADA) concluded that Lance Armstrong and the U.S. Postal Service team ran an organised doping programme using EPO, blood transfusions, testosterone and other methods. USADA described it as the most sophisticated, professionalised and successful doping programme sport had ever seen, based largely on testimony from former teammates."
+    },
+    "outcome": {
+      "ko": "암스트롱은 영구 자격 정지 처분을 받았고, 1998년 8월 이후의 모든 기록과 투르 드 프랑스 7회 우승이 박탈되었으며 국제사이클연맹(UCI)이 이를 승인했습니다. 그는 2013년 1월 TV 인터뷰에서 도핑 사실을 시인했습니다.",
+      "en": "Armstrong received a lifetime ban and was disqualified from all results since August 1998, including his seven Tour de France titles, a decision ratified by the UCI. He admitted to doping in a television interview in January 2013."
+    },
+    "decision": { "body": "NADO", "ref": "USADA Reasoned Decision, October 2012 (ratified by UCI)" },
+    "substanceIds": ["epo", "testosterone", "blood-transfusion"],
+    "sources": [
+      { "title": "USADA: U.S. Postal Service Pro Cycling Team Investigation", "url": "https://cyclinginvestigation.usada.org/" },
+      { "title": "Wikipedia: Lance Armstrong doping case", "url": "https://en.wikipedia.org/wiki/Lance_Armstrong_doping_case" }
+    ]
+  },
+  {
+    "id": "operacion-puerto-2006",
+    "year": 2006,
+    "sport": "Cycling",
+    "title": { "ko": "오페라시온 푸에르토 (2006)", "en": "Operación Puerto (2006)" },
+    "summary": {
+      "ko": "2006년 5월 스페인 경찰은 운동선수들에게 혈액 도핑을 제공한 조직을 단속하여 마드리드 등지에서 다수의 보관 혈액 주머니와 도핑 물질을 압수했습니다. 혈액 도핑과 EPO 사용 정황이 드러나며 주로 사이클 선수들이 연루된 것으로 알려졌고, 2006년 투르 드 프랑스 직전 여러 선수가 출전에서 제외되었습니다. 당시 스페인 법에 도핑 자체를 처벌하는 규정이 없어 수사와 재판은 공중보건 위반 혐의를 중심으로 진행되었습니다.",
+      "en": "In May 2006 Spanish police dismantled a network that provided blood doping to athletes, seizing numerous stored blood bags and doping products in Madrid and elsewhere. Evidence pointed to blood doping and EPO use, mainly involving cyclists, and several riders were withdrawn from the 2006 Tour de France just before the start. Because Spanish law did not then criminalise doping itself, the investigation and trial centred on public health offences."
+    },
+    "outcome": {
+      "ko": "이후 여러 선수가 반도핑 기구와 스포츠중재재판소(CAS)를 통해 자격 정지 처분을 받았습니다. 2016년 스페인 항소법원은 압수된 혈액 주머니를 반도핑 기구에 넘기도록 결정했습니다.",
+      "en": "Several athletes were subsequently suspended through anti-doping organisations and the Court of Arbitration for Sport (CAS). In 2016 a Spanish appeals court ordered the seized blood bags to be handed over to anti-doping authorities."
+    },
+    "decision": { "body": "CAS", "ref": "CAS awards on Operación Puerto-related sanctions (2007–2010)" },
+    "substanceIds": ["blood-transfusion", "epo"],
+    "sources": [
+      { "title": "Wikipedia: Operación Puerto doping case", "url": "https://en.wikipedia.org/wiki/Operaci%C3%B3n_Puerto_doping_case" }
+    ]
+  },
+  {
+    "id": "russian-state-doping",
+    "year": 2020,
+    "sport": "Multiple sports",
+    "title": { "ko": "러시아 국가 주도 도핑", "en": "Russian state-sponsored doping" },
+    "summary": {
+      "ko": "2016년 WADA가 의뢰한 맥라렌 독립 조사 보고서는 러시아에서 국가 기관이 관여한 조직적 도핑 체계가 운영되었다고 결론지었습니다. 특히 2014 소치 동계올림픽 기간 중 검사 실험실에서 시료를 몰래 바꿔치기하는 방식으로 양성 시료를 은폐한 사실이 드러났으며, 여러 종목의 1,000명이 넘는 선수가 관련된 것으로 보고되었습니다. 이후 모스크바 실험실 데이터가 조작된 사실도 확인되었습니다.",
+      "en": "The 2016 McLaren independent investigation commissioned by WADA concluded that a state-dependent, organised doping system had operated in Russia. It found that positive samples were concealed by secretly swapping samples at the testing laboratory during the 2014 Sochi Winter Olympics, and reported that more than 1,000 athletes across many sports were involved. It was later also established that data from the Moscow laboratory had been manipulated."
+    },
+    "outcome": {
+      "ko": "러시아반도핑기구(RUSADA)는 규정 미준수 기관으로 지정되었습니다. 2020년 12월 스포츠중재재판소(CAS)는 2년간 러시아가 주요 국제대회에서 국가명, 국기, 국가를 사용할 수 없도록 하는 등의 제재를 확정했고, 선수들은 중립 자격으로만 출전할 수 있게 되었습니다.",
+      "en": "The Russian Anti-Doping Agency (RUSADA) was declared non-compliant. In December 2020 the Court of Arbitration for Sport (CAS) imposed consequences for two years, including a ban on Russia's name, flag and anthem at major international events, with athletes allowed to compete only as neutrals."
+    },
+    "decision": { "body": "CAS", "ref": "CAS 2020/O/6689 WADA v. RUSADA, 17 December 2020" },
+    "substanceIds": ["m2-concept"],
+    "sources": [
+      { "title": "Wikipedia: Doping in Russia", "url": "https://en.wikipedia.org/wiki/Doping_in_Russia" },
+      { "title": "Court of Arbitration for Sport", "url": "https://www.tas-cas.org/en/index.html" }
+    ]
+  },
+  {
+    "id": "maria-sharapova-2016",
+    "year": 2016,
+    "sport": "Tennis",
+    "title": { "ko": "마리아 샤라포바 멜도니움 양성", "en": "Maria Sharapova meldonium case" },
+    "summary": {
+      "ko": "러시아 테니스 스타 마리아 샤라포바는 2016년 호주 오픈 기간의 도핑 검사에서 멜도니움 양성 반응을 보였습니다. 그녀는 수년간 의사 처방에 따라 이 약을 복용해 왔으며, 2016년 1월 1일부터 금지목록에 추가된 사실을 알지 못했다고 밝혔습니다.",
+      "en": "Russian tennis star Maria Sharapova tested positive for meldonium at the 2016 Australian Open. She said she had taken the medicine for years on a doctor's advice and had not realised it was added to the Prohibited List from 1 January 2016."
+    },
+    "outcome": {
+      "ko": "국제테니스연맹(ITF) 독립 재판부는 2년 자격 정지를 내렸으나, 스포츠중재재판소(CAS)는 '중대한 과실이 없다'고 판단해 자격 정지를 15개월로 줄였습니다. 샤라포바는 2017년 4월 투어에 복귀했습니다.",
+      "en": "An independent ITF tribunal imposed a two-year suspension, but the Court of Arbitration for Sport (CAS) found no significant fault and reduced it to 15 months. Sharapova returned to the tour in April 2017."
+    },
+    "decision": { "body": "CAS", "ref": "CAS 2016/A/4643 Maria Sharapova v. ITF, October 2016" },
+    "substanceIds": ["meldonium"],
+    "sources": [
+      { "title": "Wikipedia: Maria Sharapova", "url": "https://en.wikipedia.org/wiki/Maria_Sharapova" },
+      { "title": "Court of Arbitration for Sport", "url": "https://www.tas-cas.org/en/index.html" }
+    ]
+  },
+  {
+    "id": "kamila-valieva-2024",
+    "year": 2024,
+    "sport": "Figure skating",
+    "title": { "ko": "카밀라 발리예바 트리메타지딘 사건", "en": "Kamila Valieva trimetazidine case" },
+    "summary": {
+      "ko": "러시아 피겨스케이팅 선수 카밀라 발리예바가 2021년 12월 러시아 선수권대회에서 채취한 시료에서 트리메타지딘이 검출되었고, 이 결과는 2022 베이징 동계올림픽 단체전 이후에야 알려졌습니다. 당시 15세 미성년자였던 그녀는 올림픽 개인전 출전이 허용되어 큰 논란이 일었습니다. 러시아반도핑기구 징계위원회가 '과실 없음'으로 판단하자 WADA가 CAS에 항소했습니다.",
+      "en": "A sample taken from Russian figure skater Kamila Valieva at the Russian Championships in December 2021 was found to contain trimetazidine, and the result emerged only after the team event at the Beijing 2022 Winter Olympics. As a 15-year-old minor at the time, she was allowed to compete in the individual event, causing major controversy. After a RUSADA disciplinary panel found no fault, WADA appealed to CAS."
+    },
+    "outcome": {
+      "ko": "2024년 1월 스포츠중재재판소(CAS)는 2021년 12월 25일부터 4년간의 자격 정지와 그 이후 모든 경기 결과의 실격을 결정했습니다. 이에 따라 국제빙상경기연맹(ISU)은 베이징 올림픽 단체전 순위를 조정했습니다.",
+      "en": "In January 2024 the Court of Arbitration for Sport (CAS) imposed a four-year period of ineligibility starting 25 December 2021 and disqualified all her results from that date. The International Skating Union (ISU) subsequently revised the Beijing Olympic team event standings."
+    },
+    "decision": { "body": "CAS", "ref": "CAS 2023/A/9451, 9455 & 9456, 29 January 2024" },
+    "substanceIds": ["trimetazidine"],
+    "sources": [
+      { "title": "Wikipedia: Kamila Valieva", "url": "https://en.wikipedia.org/wiki/Kamila_Valieva" },
+      { "title": "Court of Arbitration for Sport", "url": "https://www.tas-cas.org/en/index.html" }
+    ]
+  },
+  {
+    "id": "park-tae-hwan-2014",
+    "year": 2014,
+    "sport": "Swimming",
+    "title": { "ko": "박태환 테스토스테론 양성 (2014)", "en": "Park Tae-hwan testosterone case (2014)" },
+    "summary": {
+      "ko": "한국 수영 국가대표 박태환은 2014년 인천 아시안게임 직전 실시된 경기기간 외 도핑 검사에서 테스토스테론 양성 반응을 보였습니다. 그는 병원에서 받은 치료에 금지 물질이 포함된 사실을 알지 못했다고 주장했습니다.",
+      "en": "South Korean swimmer Park Tae-hwan tested positive for testosterone in an out-of-competition test conducted shortly before the 2014 Incheon Asian Games. He said he had not known that treatment he received at a hospital contained a prohibited substance."
+    },
+    "outcome": {
+      "ko": "2015년 3월 국제수영연맹(FINA) 도핑 패널은 2014년 9월부터 18개월 자격 정지를 결정하고, 인천 아시안게임에서 획득한 메달을 모두 박탈했습니다. 선수에게 금지 물질에 대한 최종 책임이 있다는 '엄격 책임' 원칙이 적용된 사례입니다.",
+      "en": "In March 2015 the FINA Doping Panel imposed an 18-month suspension backdated to September 2014 and stripped all of his medals from the Incheon Asian Games. The case illustrates the principle of strict liability, under which athletes are ultimately responsible for any prohibited substance in their bodies."
+    },
+    "decision": { "body": "IF", "ref": "FINA Doping Panel, March 2015" },
+    "substanceIds": ["testosterone"],
+    "sources": [
+      { "title": "Wikipedia: Park Tae-hwan", "url": "https://en.wikipedia.org/wiki/Park_Tae-hwan" }
+    ]
+  }
+]
