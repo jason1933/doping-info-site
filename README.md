@@ -90,6 +90,8 @@ JSON만 수정해 push해도 됩니다. `data/*.json` 변경 push 시 Actions(`U
 
 - WADA Prohibited List 및 각 항목의 `sources`에 표기된 공식 자료 (WADA, CAS, 각 국제연맹/NADO 등).
 - 뉴스: Google News RSS. 외부 언론 기사이며 이 사이트가 사실 여부를 검증하지 않습니다.
+- 약물 이미지: Wikimedia Commons의 자유 라이선스 이미지(퍼블릭 도메인, CC0, CC BY-SA)만 사용합니다. 파일은 `assets/img/substances/`에 있고, 작성자·라이선스·원본 링크는 `data/substances.json`의 `image.credit`에 기록되어 각 약물 페이지 이미지 아래에 표시됩니다. 실제 제품 사진이 아닌 화학 구조식·분자 모형·단백질 구조 위주입니다.
+  - 이미지를 추가하거나 바꿀 때는 `image: { src, kind: structure|model|protein|photo, alt: {ko,en}, credit: { author, license, licenseUrl, sourceUrl } }` 형식을 지키세요. `validate-data`가 파일 존재, 자유 라이선스 여부, CC BY 계열의 라이선스 링크를 검사합니다.
 
 ## 라이선스
 

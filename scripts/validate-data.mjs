@@ -73,6 +73,26 @@ function checkSources(sources, where) {
   });
 }
 
+// Optional substance image: local file under assets/img/, free license, attribution present.
+const IMG_KINDS = new Set(['structure', 'model', 'protein', 'photo']);
+const FREE_LICENSE = /^(public domain|pd|cc0|cc[ -]by)/i;
+function checkImage(im, where) {
+  if (!isObj(im)) { contentErrors.push(`${where}: must be an object`); return; }
+  if (!isStr(im.src) || !/^assets\/img\/[A-Za-z0-9_\-\/]+\.(png|jpe?g|gif|svg|webp)$/.test(im.src)) {
+    contentErrors.push(`${where}.src: must be a local assets/img/ image path`);
+  } else if (!existsSync(join(DATA, '..', im.src))) {
+    contentErrors.push(`${where}.src: file not found (${im.src})`);
+  }
+  if (!IMG_KINDS.has(im.kind)) contentErrors.push(`${where}.kind: invalid "${im.kind}"`);
+  checkBilingual(im.alt, `${where}.alt`);
+  const c = im.credit;
+  if (!isObj(c)) { contentErrors.push(`${where}.credit: missing`); return; }
+  if (!isStr(c.author)) contentErrors.push(`${where}.credit.author: missing`);
+  if (!isStr(c.license) || !FREE_LICENSE.test(c.license)) contentErrors.push(`${where}.credit.license: must be a free license (PD/CC0/CC BY*)`);
+  if (/^cc[ -]by/i.test(c.license || '') && !isHttps(c.licenseUrl)) contentErrors.push(`${where}.credit.licenseUrl: required (https) for CC BY licenses`);
+  if (!isHttps(c.sourceUrl)) contentErrors.push(`${where}.credit.sourceUrl: must be https`);
+}
+
 function scanText(text, where) {
   if (typeof text !== 'string') return;
   let t = text;
@@ -92,7 +112,7 @@ function scanAll(value, where) {
   else if (Array.isArray(value)) value.forEach((v, i) => scanAll(v, `${where}[${i}]`));
   else if (isObj(value)) {
     for (const [k, v] of Object.entries(value)) {
-      if (k === 'url' || k === 'sourceUrl') continue;
+      if (k === 'url' || k === 'sourceUrl' || k === 'licenseUrl' || k === 'src') continue;
       scanAll(v, `${where}.${k}`);
     }
   }
@@ -153,6 +173,7 @@ if (subs !== undefined) {
         }
       }
       checkSources(s?.sources, w);
+      if (s?.image !== undefined) checkImage(s.image, `${w}.image`);
       if (!Array.isArray(s?.caseIds)) contentErrors.push(`${w}.caseIds: array required`);
       scanAll(s, w);
     });

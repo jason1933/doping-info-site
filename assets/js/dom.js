@@ -14,6 +14,12 @@
     }
   }
 
+  /* Images: only local files under assets/img/ with an image extension. */
+  function safeImgSrc(src) {
+    if (typeof src !== 'string') return null;
+    return /^assets\/img\/[A-Za-z0-9_\-\/]+\.(png|jpe?g|gif|svg|webp)$/.test(src) && src.indexOf('..') === -1 ? src : null;
+  }
+
   function append(node, child) {
     if (child === null || child === undefined || child === false) return;
     if (Array.isArray(child)) { child.forEach(function (c) { append(node, c); }); return; }
@@ -36,6 +42,9 @@
         else if (k === 'href') {
           var h = safeHref(v);
           if (h) node.setAttribute('href', h);
+        } else if (k === 'src') {
+          var s = safeImgSrc(v);
+          if (s) node.setAttribute('src', s);
         } else if (k === 'on') {
           Object.keys(v).forEach(function (ev) { node.addEventListener(ev, v[ev]); });
         } else if (/^on/i.test(k)) {
@@ -60,5 +69,5 @@
     return node;
   }
 
-  window.DomUtil = { el: el, extLink: extLink, safeHref: safeHref, clear: clear };
+  window.DomUtil = { el: el, extLink: extLink, safeHref: safeHref, safeImgSrc: safeImgSrc, clear: clear };
 })();

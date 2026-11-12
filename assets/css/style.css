@@ -130,3 +130,15 @@ h2 { font-size: 1.2rem; line-height: 1.4; margin: 0 0 .75rem; }
 .footer-strong { color: var(--ink); font-weight: 700; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* ---------- substance images ---------- */
+/* Structure diagrams are black lines on transparent backgrounds, so they always sit on a white panel (readable in dark mode too). */
+.sub-figure { margin: 0 0 1.5rem; }
+.sub-img-wrap { display: flex; align-items: center; justify-content: center; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem; }
+.sub-img { display: block; max-width: 100%; height: auto; max-height: 280px; object-fit: contain; }
+.sub-figure-photo .sub-img { max-height: 360px; }
+.sub-caption { display: flex; flex-wrap: wrap; gap: .15rem .4rem; margin-top: .45rem; font-size: .8rem; color: var(--muted); overflow-wrap: anywhere; }
+.sub-note { flex-basis: 100%; }
+.card-has-img { position: relative; }
+.card-thumb { display: flex; align-items: center; justify-content: center; height: 88px; margin: -.35rem -.5rem .4rem; background: #fff; border-radius: calc(var(--radius) - 4px); overflow: hidden; }
+.card-thumb-img { max-width: 100%; max-height: 80px; object-fit: contain; }

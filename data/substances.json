@@ -81,7 +81,21 @@
       "east-german-state-doping",
       "lance-armstrong-2012",
       "park-tae-hwan-2014"
-    ]
+    ],
+    "image": {
+      "src": "assets/img/substances/testosterone.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "테스토스테론의 화학 구조식",
+        "en": "Testosterone chemical structure"
+      },
+      "credit": {
+        "author": "NEUROtiker",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Testosteron.svg"
+      }
+    }
   },
   {
     "id": "stanozolol",
@@ -122,7 +136,21 @@
     ],
     "caseIds": [
       "ben-johnson-1988"
-    ]
+    ],
+    "image": {
+      "src": "assets/img/substances/stanozolol.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "스타노졸롤의 화학 구조식",
+        "en": "Stanozolol chemical structure"
+      },
+      "credit": {
+        "author": "Rhododendronbusch",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stanozolol.svg"
+      }
+    }
   },
   {
     "id": "thg",
@@ -165,7 +193,21 @@
     ],
     "caseIds": [
       "balco-marion-jones-2007"
-    ]
+    ],
+    "image": {
+      "src": "assets/img/substances/thg.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "테트라하이드로게스트리논 (THG)의 화학 구조식",
+        "en": "Tetrahydrogestrinone (THG) chemical structure"
+      },
+      "credit": {
+        "author": "Jü",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tetrahydrogestrinone_Structural_Formula_V1.svg"
+      }
+    }
   },
   {
     "id": "epo",
@@ -213,7 +255,21 @@
       "festina-1998",
       "lance-armstrong-2012",
       "operacion-puerto-2006"
-    ]
+    ],
+    "image": {
+      "src": "assets/img/substances/epo.jpg",
+      "kind": "protein",
+      "alt": {
+        "ko": "EPO (에리스로포이에틴)의 단백질 구조",
+        "en": "EPO (Erythropoietin) protein structure"
+      },
+      "credit": {
+        "author": "Jawahar Swaminathan and MSD staff at the European Bioinformatics Institute",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:PDB_1buy_EBI.jpg"
+      }
+    }
   },
   {
     "id": "hgh",
@@ -255,7 +311,21 @@
         "url": "https://en.wikipedia.org/wiki/Growth_hormone"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/hgh.gif",
+      "kind": "protein",
+      "alt": {
+        "ko": "인간 성장호르몬 (hGH)의 단백질 구조",
+        "en": "Human Growth Hormone (hGH) protein structure"
+      },
+      "credit": {
+        "author": "Unknown",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Somatotropine.GIF"
+      }
+    }
   },
   {
     "id": "hcg",
@@ -296,7 +366,21 @@
         "url": "https://en.wikipedia.org/wiki/Human_chorionic_gonadotropin"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/hcg.png",
+      "kind": "protein",
+      "alt": {
+        "ko": "인간 융모성 생식샘자극호르몬 (hCG)의 단백질 구조",
+        "en": "Human Chorionic Gonadotrophin (hCG) protein structure"
+      },
+      "credit": {
+        "author": "Borislav Mitev",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:HCG_structure.png"
+      }
+    }
   },
   {
     "id": "salbutamol",
@@ -337,7 +421,21 @@
         "url": "https://en.wikipedia.org/wiki/Salbutamol"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/salbutamol.png",
+      "kind": "model",
+      "alt": {
+        "ko": "살부타몰의 분자 모형 (볼-스틱)",
+        "en": "Salbutamol ball-and-stick molecular model"
+      },
+      "credit": {
+        "author": "Ben Mills",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:RS-salbutamol-from-xtal-3D-balls.png"
+      }
+    }
   },
   {
     "id": "terbutaline",
@@ -376,7 +474,21 @@
         "url": "https://en.wikipedia.org/wiki/Terbutaline"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/terbutaline.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "테르부탈린의 화학 구조식",
+        "en": "Terbutaline chemical structure"
+      },
+      "credit": {
+        "author": "Vaccinationist",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terbutaline.svg"
+      }
+    }
   },
   {
     "id": "meldonium",
@@ -418,7 +530,21 @@
     ],
     "caseIds": [
       "maria-sharapova-2016"
-    ]
+    ],
+    "image": {
+      "src": "assets/img/substances/meldonium.png",
+      "kind": "model",
+      "alt": {
+        "ko": "멜도니움의 분자 모형 (볼-스틱)",
+        "en": "Meldonium ball-and-stick molecular model"
+      },
+      "credit": {
+        "author": "Ben Mills",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meldonium-from-xtal-3D-bs-17.png"
+      }
+    }
   },
   {
     "id": "trimetazidine",
@@ -459,7 +585,21 @@
     ],
     "caseIds": [
       "kamila-valieva-2024"
-    ]
+    ],
+    "image": {
+      "src": "assets/img/substances/trimetazidine.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "트리메타지딘의 화학 구조식",
+        "en": "Trimetazidine chemical structure"
+      },
+      "credit": {
+        "author": "AlyInWikiWonderland",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trimetazidine_structure.svg"
+      }
+    }
   },
   {
     "id": "tamoxifen",
@@ -498,7 +638,21 @@
         "url": "https://en.wikipedia.org/wiki/Tamoxifen"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/tamoxifen.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "타목시펜의 화학 구조식",
+        "en": "Tamoxifen chemical structure"
+      },
+      "credit": {
+        "author": "Fuse809",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamoxifen2DACS.svg"
+      }
+    }
   },
   {
     "id": "furosemide",
@@ -538,7 +692,21 @@
         "url": "https://en.wikipedia.org/wiki/Furosemide"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/furosemide.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "푸로세미드의 화학 구조식",
+        "en": "Furosemide chemical structure"
+      },
+      "credit": {
+        "author": "Fvasconcellos",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Furosemide.svg"
+      }
+    }
   },
   {
     "id": "hydrochlorothiazide",
@@ -579,7 +747,21 @@
         "url": "https://en.wikipedia.org/wiki/Hydrochlorothiazide"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/hydrochlorothiazide.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "하이드로클로로티아자이드의 화학 구조식",
+        "en": "Hydrochlorothiazide chemical structure"
+      },
+      "credit": {
+        "author": "Yikrazuul",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hydrochlorothiazide.svg"
+      }
+    }
   },
   {
     "id": "amphetamine",
@@ -619,7 +801,21 @@
         "url": "https://en.wikipedia.org/wiki/Amphetamine"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/amphetamine.png",
+      "kind": "model",
+      "alt": {
+        "ko": "암페타민의 분자 모형 (볼-스틱)",
+        "en": "Amphetamine ball-and-stick molecular model"
+      },
+      "credit": {
+        "author": "Fenetermine",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dexedrine.png"
+      }
+    }
   },
   {
     "id": "ephedrine",
@@ -658,7 +854,21 @@
         "url": "https://en.wikipedia.org/wiki/Ephedrine"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/ephedrine.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "에페드린의 화학 구조식",
+        "en": "Ephedrine chemical structure"
+      },
+      "credit": {
+        "author": "AlyInWikiWonderland",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ephedrine_structure.svg"
+      }
+    }
   },
   {
     "id": "morphine",
@@ -697,7 +907,21 @@
         "url": "https://en.wikipedia.org/wiki/Morphine"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/morphine.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "모르핀의 화학 구조식",
+        "en": "Morphine chemical structure"
+      },
+      "credit": {
+        "author": "Vaccinationist",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morphine.svg"
+      }
+    }
   },
   {
     "id": "fentanyl",
@@ -736,7 +960,21 @@
         "url": "https://en.wikipedia.org/wiki/Fentanyl"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/fentanyl.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "펜타닐의 화학 구조식",
+        "en": "Fentanyl chemical structure"
+      },
+      "credit": {
+        "author": "Harbin",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fentanyl.svg"
+      }
+    }
   },
   {
     "id": "thc",
@@ -780,7 +1018,21 @@
         "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/thc.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "THC (테트라하이드로칸나비놀)의 화학 구조식",
+        "en": "THC (Tetrahydrocannabinol) chemical structure"
+      },
+      "credit": {
+        "author": "Harbin",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:THC.svg"
+      }
+    }
   },
   {
     "id": "jwh-018",
@@ -822,7 +1074,21 @@
         "url": "https://en.wikipedia.org/wiki/JWH-018"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/jwh-018.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "JWH-018 (합성 카나비노이드)의 화학 구조식",
+        "en": "JWH-018 (synthetic cannabinoid) chemical structure"
+      },
+      "credit": {
+        "author": "Roland Mattern",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:JWH018.svg"
+      }
+    }
   },
   {
     "id": "dexamethasone",
@@ -861,7 +1127,21 @@
         "url": "https://en.wikipedia.org/wiki/Dexamethasone"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/dexamethasone.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "덱사메타손의 화학 구조식",
+        "en": "Dexamethasone chemical structure"
+      },
+      "credit": {
+        "author": "User:Edgar181",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dexamethasone_structure.svg"
+      }
+    }
   },
   {
     "id": "prednisolone",
@@ -900,7 +1180,21 @@
         "url": "https://en.wikipedia.org/wiki/Prednisolone"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/prednisolone.png",
+      "kind": "structure",
+      "alt": {
+        "ko": "프레드니솔론의 화학 구조식",
+        "en": "Prednisolone chemical structure"
+      },
+      "credit": {
+        "author": "Fvasconcellos",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prednisolone-2D-skeletal.svg"
+      }
+    }
   },
   {
     "id": "blood-transfusion",
@@ -946,7 +1240,21 @@
     "caseIds": [
       "lance-armstrong-2012",
       "operacion-puerto-2006"
-    ]
+    ],
+    "image": {
+      "src": "assets/img/substances/blood-transfusion.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "수혈용 적혈구 농축액 팩",
+        "en": "Red blood cell concentrate bag used for transfusion"
+      },
+      "credit": {
+        "author": "Pflegewiki-User Würfel (derivative work)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erythrozytenkonzentrat_neu.jpg"
+      }
+    }
   },
   {
     "id": "hboc",
@@ -1107,7 +1415,21 @@
         "url": "https://en.wikipedia.org/wiki/Propranolol"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/propranolol.png",
+      "kind": "model",
+      "alt": {
+        "ko": "프로프라놀롤의 분자 모형 (볼-스틱)",
+        "en": "Propranolol ball-and-stick molecular model"
+      },
+      "credit": {
+        "author": "Ben Mills",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Propranolol-from-1977-crystal-structure-3D-balls-side.png"
+      }
+    }
   },
   {
     "id": "metoprolol",
@@ -1146,6 +1468,20 @@
         "url": "https://en.wikipedia.org/wiki/Metoprolol"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "image": {
+      "src": "assets/img/substances/metoprolol.png",
+      "kind": "model",
+      "alt": {
+        "ko": "메토프롤롤의 분자 모형 (볼-스틱)",
+        "en": "Metoprolol ball-and-stick molecular model"
+      },
+      "credit": {
+        "author": "YitzhakNat",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metoprolol_ball-and-stick.png"
+      }
+    }
   }
 ]

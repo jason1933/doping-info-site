@@ -90,9 +90,30 @@
     return el('div', { class: 'page-head' }, el('h1', { id: 'page-title', tabindex: '-1' }, title), lead ? el('p', { class: 'lead' }, lead) : null);
   }
 
+  function substanceImg(s, cls) {
+    var im = s && s.image;
+    if (!im || !DomUtil.safeImgSrc(im.src)) return null;
+    return el('img', { class: cls, src: im.src, alt: pick(im.alt) || pick(s.name), loading: 'lazy', decoding: 'async' });
+  }
+
+  function substanceFigure(s) {
+    var im = s.image;
+    var img = substanceImg(s, 'sub-img');
+    if (!img) return null;
+    var cr = im.credit || {};
+    return el('figure', { class: 'sub-figure sub-figure-' + (im.kind || 'structure') },
+      el('div', { class: 'sub-img-wrap' }, img),
+      el('figcaption', { class: 'sub-caption' },
+        im.kind === 'photo' ? null : el('span', { class: 'sub-note' }, t('imageNote')),
+        el('span', null, t('imageCredit') + ': ' + (cr.author || 'Unknown') + ' · ' + t('imageLicense') + ': ',
+          cr.licenseUrl ? DomUtil.extLink(cr.licenseUrl, cr.license || '') : (cr.license || '')),
+        cr.sourceUrl ? el('span', null, ' · ', DomUtil.extLink(cr.sourceUrl, t('imageSource') + ' (Wikimedia Commons)')) : null));
+  }
+
   function substanceCard(s) {
     var cat = catByCode(s.category);
-    return el('li', null, el('a', { class: 'card', href: href(idHref('substance', s.id)) },
+    return el('li', null, el('a', { class: 'card' + (s.image ? ' card-has-img' : ''), href: href(idHref('substance', s.id)) },
+      s.image ? el('span', { class: 'card-thumb', 'aria-hidden': 'true' }, substanceImg(s, 'card-thumb-img')) : null,
       el('span', { class: 'card-code' }, s.category || ''),
       el('span', { class: 'card-title' }, pick(s.name)),
       cat ? el('span', { class: 'card-sub' }, pick(cat.name)) : null));
@@ -206,6 +227,7 @@
         el('h1', { id: 'page-title', tabindex: '-1' }, pick(s.name)),
         cat ? el('p', null, el('span', { class: 'code-pill' }, cat.code), ' ', statusBadge(cat.status)) : null,
         aliases.length ? el('p', { class: 'muted' }, t('aliases') + ': ' + aliases.join(', ')) : null),
+      substanceFigure(s),
       section(t('effects'), para(pick(s.effects)), 'h-eff'),
       section(t('sideEffects'), para(pick(s.sideEffects)), 'h-side'),
       section(t('detection'), para(pick(s.detection)), 'h-det'),
