@@ -36,7 +36,11 @@
         "url": "https://www.wada-ama.org/en/prohibited-list"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "productsNone": {
+      "ko": "특정 물질이 아닌 개념이라 대표 상품명이 없습니다. 인터넷에서 연구용 화학물질로 팔리는 제품이 여기에 해당할 수 있습니다.",
+      "en": "This is a concept rather than a substance, so there is no representative product. Products sold online as 'research chemicals' may fall under it."
+    }
   },
   {
     "id": "testosterone",
@@ -95,6 +99,54 @@
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Testosteron.svg"
       }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "데포-테스토스테론 (Depo-Testosterone)",
+          "en": "Depo-Testosterone"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "테스토스테론 사이피오네이트 주사제 (미국 등).",
+          "en": "Testosterone cypionate injection (US and others)."
+        }
+      },
+      {
+        "name": {
+          "ko": "네비도 (Nebido)",
+          "en": "Nebido"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "테스토스테론 운데카노에이트 주사제. 국내 유통.",
+          "en": "Testosterone undecanoate injection; marketed in Korea."
+        }
+      },
+      {
+        "name": {
+          "ko": "안드로겔 (AndroGel) / 테스토겔 (Testogel)",
+          "en": "AndroGel / Testogel"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "피부에 바르는 겔 제형.",
+          "en": "Topical gel formulations."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/testosterone.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "Depo-Testosterone 주사제 바이알",
+        "en": "Vial of Depo-Testosterone injection"
+      },
+      "credit": {
+        "author": "U.S. Drug Enforcement Administration",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Depo-testosterone_200_mg_ml_crop.jpg"
+      }
     }
   },
   {
@@ -149,6 +201,44 @@
         "license": "Public domain",
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stanozolol.svg"
+      }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "윈스트롤 (Winstrol)",
+          "en": "Winstrol"
+        },
+        "status": "discontinued",
+        "note": {
+          "ko": "경구 정제. 미국에서는 판매가 중단되었고 국내에서는 승인된 적이 없습니다.",
+          "en": "Oral tablets; discontinued in the US and never approved in Korea."
+        }
+      },
+      {
+        "name": {
+          "ko": "윈스트롤 데포 (Winstrol Depot)",
+          "en": "Winstrol Depot"
+        },
+        "status": "discontinued",
+        "note": {
+          "ko": "주사제 (유럽 등). 현재는 주로 위조·불법 제품으로 유통됩니다.",
+          "en": "Injectable (Europe and others). Today it circulates mainly as counterfeit or illicit product."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/stanozolol.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "Winstrol Depot 상자와 앰풀",
+        "en": "Winstrol Depot box and ampoules"
+      },
+      "credit": {
+        "author": "Cristian navas roman",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winstrol.jpg"
       }
     }
   },
@@ -207,7 +297,20 @@
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tetrahydrogestrinone_Structural_Formula_V1.svg"
       }
-    }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "'더 클리어 (The Clear)'",
+          "en": "'The Clear'"
+        },
+        "status": "illicit",
+        "note": {
+          "ko": "BALCO가 선수들에게 공급한 불법 제품. 의약품으로 승인된 적이 없습니다.",
+          "en": "Illicit product supplied to athletes by BALCO; never approved as a medicine."
+        }
+      }
+    ]
   },
   {
     "id": "epo",
@@ -269,6 +372,77 @@
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:PDB_1buy_EBI.jpg"
       }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "에포젠 (Epogen) / 이프렉스 (Eprex)",
+          "en": "Epogen / Eprex"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "에포에틴 알파.",
+          "en": "Epoetin alfa."
+        }
+      },
+      {
+        "name": {
+          "ko": "에포카인 (Epokine)",
+          "en": "Epokine"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "국내 개발 에포에틴 알파.",
+          "en": "Epoetin alfa developed in Korea."
+        }
+      },
+      {
+        "name": {
+          "ko": "네오레코르몬 (NeoRecormon)",
+          "en": "NeoRecormon"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "에포에틴 베타.",
+          "en": "Epoetin beta."
+        }
+      },
+      {
+        "name": {
+          "ko": "아라네스프 (Aranesp)",
+          "en": "Aranesp"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "다베포에틴 알파 (EPO 계열 장기 지속형).",
+          "en": "Darbepoetin alfa (long-acting EPO analogue)."
+        }
+      },
+      {
+        "name": {
+          "ko": "미르세라 (Mircera)",
+          "en": "Mircera"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "CERA (메톡시 폴리에틸렌글리콜-에포에틴 베타). 2008년 투르 드 프랑스 적발 사례로 알려졌습니다.",
+          "en": "CERA (methoxy polyethylene glycol-epoetin beta); known from detections at the 2008 Tour de France."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/epo.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "미르세라(Mircera) 일본 포장",
+        "en": "Japanese packaging of Mircera"
+      },
+      "credit": {
+        "author": "melvil",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:MIRCERA.jpg"
+      }
     }
   },
   {
@@ -325,7 +499,41 @@
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Somatotropine.GIF"
       }
-    }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "지노트로핀 (Genotropin)",
+          "en": "Genotropin"
+        },
+        "status": "approved"
+      },
+      {
+        "name": {
+          "ko": "노디트로핀 (Norditropin)",
+          "en": "Norditropin"
+        },
+        "status": "approved"
+      },
+      {
+        "name": {
+          "ko": "휴마트로프 (Humatrope)",
+          "en": "Humatrope"
+        },
+        "status": "approved"
+      },
+      {
+        "name": {
+          "ko": "유트로핀 (Eutropin)",
+          "en": "Eutropin"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "국내 개발 성장호르몬.",
+          "en": "Growth hormone developed in Korea."
+        }
+      }
+    ]
   },
   {
     "id": "hcg",
@@ -380,6 +588,34 @@
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:HCG_structure.png"
       }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "프레그닐 (Pregnyl)",
+          "en": "Pregnyl"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "불임 치료용 hCG 주사제.",
+          "en": "hCG injection for fertility treatment."
+        }
+      },
+      {
+        "name": {
+          "ko": "오비드렐 / 오비트렐 (Ovidrel / Ovitrelle)",
+          "en": "Ovidrel / Ovitrelle"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "유전자 재조합 hCG.",
+          "en": "Recombinant hCG."
+        }
+      }
+    ],
+    "sportsNote": {
+      "ko": "종목과 관계없이 남성 선수에게만 금지됩니다 (여성 선수에게는 이 항목으로 금지되지 않음).",
+      "en": "Prohibited for male athletes only, in every sport (not prohibited for female athletes under this entry)."
     }
   },
   {
@@ -435,6 +671,48 @@
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:RS-salbutamol-from-xtal-3D-balls.png"
       }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "벤토린 (Ventolin)",
+          "en": "Ventolin"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "흡입기·시럽 등. 국내 유통.",
+          "en": "Inhaler, syrup and other forms; marketed in Korea."
+        }
+      },
+      {
+        "name": {
+          "ko": "프로에어 (ProAir)",
+          "en": "ProAir"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "미국 흡입기 (알부테롤).",
+          "en": "US inhaler (albuterol)."
+        }
+      }
+    ],
+    "sportsNote": {
+      "ko": "모든 종목에서 흡입 사용은 금지목록이 정한 조건 안에서만 허용되고, 정제·시럽·주사 등은 TUE 없이 사용하면 위반입니다.",
+      "en": "In every sport, inhaled use is permitted only within the conditions of the Prohibited List; tablets, syrups or injections without a TUE are a violation."
+    },
+    "productImage": {
+      "src": "assets/img/products/salbutamol.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "Ventolin HFA 흡입기",
+        "en": "Ventolin HFA inhaler"
+      },
+      "credit": {
+        "author": "MisterNarwhal",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ventolin%C2%AE_HFA_(Albuterol_Sulfate)_Inhaler.jpg"
+      }
     }
   },
   {
@@ -487,6 +765,33 @@
         "license": "Public domain",
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terbutaline.svg"
+      }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "브리카닐 (Bricanyl)",
+          "en": "Bricanyl"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "터부헬러 흡입기·정제 등.",
+          "en": "Turbuhaler inhaler, tablets and other forms."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/terbutaline.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "Bricanyl Turbuhaler 흡입기",
+        "en": "Bricanyl Turbuhaler inhaler"
+      },
+      "credit": {
+        "author": "Doc James",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terbutaline2024.jpg"
       }
     }
   },
@@ -544,7 +849,20 @@
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meldonium-from-xtal-3D-bs-17.png"
       }
-    }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "밀드로네이트 (Mildronate)",
+          "en": "Mildronate"
+        },
+        "status": "limited",
+        "note": {
+          "ko": "라트비아·러시아 등 일부 국가에서만 승인. 미국·EU·국내 미승인.",
+          "en": "Approved only in some countries such as Latvia and Russia; not approved in the US, EU or Korea."
+        }
+      }
+    ]
   },
   {
     "id": "trimetazidine",
@@ -599,7 +917,31 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trimetazidine_structure.svg"
       }
-    }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "바스티난 (Vastarel)",
+          "en": "Vastarel"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "협심증 치료제. 국내 유통.",
+          "en": "Angina medicine; marketed in Korea."
+        }
+      },
+      {
+        "name": {
+          "ko": "프레덕탈 (Preductal)",
+          "en": "Preductal"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "동유럽 등에서 쓰이는 상표명.",
+          "en": "Brand name used in Eastern Europe and elsewhere."
+        }
+      }
+    ]
   },
   {
     "id": "tamoxifen",
@@ -651,6 +993,32 @@
         "license": "Public domain",
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamoxifen2DACS.svg"
+      }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "놀바덱스 (Nolvadex)",
+          "en": "Nolvadex"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "유방암 치료제. 국내 유통.",
+          "en": "Breast cancer medicine; marketed in Korea."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/tamoxifen.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "Nolvadex-D 포장 상자",
+        "en": "Nolvadex-D boxes"
+      },
+      "credit": {
+        "author": "Editor182",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nolvadex.jpg"
       }
     }
   },
@@ -705,6 +1073,37 @@
         "license": "Public domain",
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Furosemide.svg"
+      }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "라식스 (Lasix)",
+          "en": "Lasix"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "정제·주사제. 국내 유통.",
+          "en": "Tablets and injection; marketed in Korea."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/furosemide.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "푸로세미드 주사제 바이알 (제네릭)",
+        "en": "Furosemide injection vial (generic)"
+      },
+      "credit": {
+        "author": "Intropin",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Furosemide_(1).JPG"
+      },
+      "note": {
+        "ko": "사진은 상표명이 없는 제네릭 제품입니다.",
+        "en": "The photo shows a generic (unbranded) product."
       }
     }
   },
@@ -761,6 +1160,47 @@
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hydrochlorothiazide.svg"
       }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "다이크로짇 (Dichlozid)",
+          "en": "Dichlozid"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "단일 성분 정제. 국내 유통.",
+          "en": "Single-ingredient tablet; marketed in Korea."
+        }
+      },
+      {
+        "name": {
+          "ko": "고혈압 복합제 (예: 로사르탄·HCTZ 복합제 하이자/Hyzaar)",
+          "en": "Combination blood-pressure pills (e.g. losartan + HCTZ, Hyzaar)"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "제품명에 '플러스', 'HCT', 'H'가 붙은 혈압약에 들어 있는 경우가 많아 주의가 필요합니다.",
+          "en": "Often contained in blood-pressure medicines whose names end in 'Plus', 'HCT' or 'H'."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/hydrochlorothiazide.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "베나제프릴·하이드로클로로티아자이드 복합 정제",
+        "en": "Benazepril and hydrochlorothiazide combination tablets"
+      },
+      "credit": {
+        "author": "NLM",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:001850277lg_Benazepril_hydrochloride_20_MG_Hydrochlorothiazide_25_MG_Oral_Tablet.jpg"
+      },
+      "note": {
+        "ko": "사진은 베나제프릴과 하이드로클로로티아자이드가 함께 든 복합 정제입니다.",
+        "en": "The photo shows a combination tablet containing benazepril and hydrochlorothiazide."
+      }
     }
   },
   {
@@ -815,6 +1255,43 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dexedrine.png"
       }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "애더럴 (Adderall)",
+          "en": "Adderall"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "미국 ADHD 치료제. 국내 미승인.",
+          "en": "US ADHD medicine; not approved in Korea."
+        }
+      },
+      {
+        "name": {
+          "ko": "바이반스 (Vyvanse)",
+          "en": "Vyvanse"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "리스덱스암페타민 (체내에서 암페타민으로 전환). 국내 미승인.",
+          "en": "Lisdexamfetamine (converted to amphetamine in the body); not approved in Korea."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/amphetamine.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "Adderall XR 약병과 캡슐",
+        "en": "Adderall XR bottle and capsules"
+      },
+      "credit": {
+        "author": "Ryanaxp at en.Wikipedia",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adderall_bottle_and_capsules.jpg"
+      }
     }
   },
   {
@@ -868,7 +1345,42 @@
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ephedrine_structure.svg"
       }
-    }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "감기약·코막힘약 복합제",
+          "en": "Cold and decongestant combination medicines"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "단일 상표보다 여러 성분이 섞인 일반의약품에 들어 있는 경우가 많습니다.",
+          "en": "More often found in multi-ingredient over-the-counter medicines than under a single brand."
+        }
+      },
+      {
+        "name": {
+          "ko": "프리마틴 정 (Primatene Tablets)",
+          "en": "Primatene Tablets"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "미국 일반의약품 (에페드린 함유 기관지 확장제).",
+          "en": "US over-the-counter bronchodilator containing ephedrine."
+        }
+      },
+      {
+        "name": {
+          "ko": "한약재 마황 (麻黃) 및 마황 함유 보충제",
+          "en": "Ma huang (ephedra) and supplements containing it"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "한약·체중감량 보충제에 들어 있을 수 있습니다.",
+          "en": "May be present in herbal remedies and weight-loss supplements."
+        }
+      }
+    ]
   },
   {
     "id": "morphine",
@@ -920,6 +1432,44 @@
         "license": "Public domain",
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morphine.svg"
+      }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "엠에스콘틴 (MS Contin)",
+          "en": "MS Contin"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "서방형 정제.",
+          "en": "Extended-release tablets."
+        }
+      },
+      {
+        "name": {
+          "ko": "세브레돌 (Sevredol)",
+          "en": "Sevredol"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "속방형 정제 (유럽 등).",
+          "en": "Immediate-release tablets (Europe and others)."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/morphine.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "Sevredol 상자와 정제",
+        "en": "Sevredol box and tablets"
+      },
+      "credit": {
+        "author": "Leinad.vecvals",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sevredol.jpg"
       }
     }
   },
@@ -973,6 +1523,44 @@
         "license": "Public domain",
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fentanyl.svg"
+      }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "듀로제식 (Durogesic / Duragesic)",
+          "en": "Durogesic / Duragesic"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "피부에 붙이는 패치. 국내 유통.",
+          "en": "Skin patch; marketed in Korea."
+        }
+      },
+      {
+        "name": {
+          "ko": "액틱 (Actiq)",
+          "en": "Actiq"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "구강 점막 제형.",
+          "en": "Oral transmucosal formulation."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/fentanyl.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "Durogesic 패치 포장",
+        "en": "Durogesic patch packaging"
+      },
+      "credit": {
+        "author": "Koń at Polish Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Durogesic_50ug_plasters.jpg"
       }
     }
   },
@@ -1032,7 +1620,42 @@
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:THC.svg"
       }
-    }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "마리놀 (Marinol)",
+          "en": "Marinol"
+        },
+        "status": "limited",
+        "note": {
+          "ko": "합성 THC(드로나비놀) 캡슐. 미국 등에서 승인.",
+          "en": "Synthetic THC (dronabinol) capsules; approved in the US and elsewhere."
+        }
+      },
+      {
+        "name": {
+          "ko": "사티벡스 (Sativex)",
+          "en": "Sativex"
+        },
+        "status": "limited",
+        "note": {
+          "ko": "THC와 CBD를 함께 함유. 일부 국가에서 승인.",
+          "en": "Contains both THC and CBD; approved in some countries."
+        }
+      },
+      {
+        "name": {
+          "ko": "대마 및 대마 가공품",
+          "en": "Cannabis and cannabis products"
+        },
+        "status": "illicit",
+        "note": {
+          "ko": "국내에서는 의약품을 제외하고 불법입니다.",
+          "en": "Illegal in Korea except for approved medicines."
+        }
+      }
+    ]
   },
   {
     "id": "jwh-018",
@@ -1088,6 +1711,32 @@
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:JWH018.svg"
       }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "'스파이스 (Spice)' / 'K2'",
+          "en": "'Spice' / 'K2'"
+        },
+        "status": "illicit",
+        "note": {
+          "ko": "허브에 합성 카나비노이드를 뿌린 불법 제품. 의약품이 아닙니다.",
+          "en": "Illicit herbal mixtures sprayed with synthetic cannabinoids; not a medicine."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/jwh-018.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "'스파이스' 합성 대마 제품",
+        "en": "'Spice' synthetic cannabis product"
+      },
+      "credit": {
+        "author": "G.W. Pomeroy",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%27Spice%27_--_a_designer_synthetic_cannabinoid.jpg"
+      }
     }
   },
   {
@@ -1140,6 +1789,44 @@
         "license": "Public domain",
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dexamethasone_structure.svg"
+      }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "포르테코르틴 (Fortecortin)",
+          "en": "Fortecortin"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "유럽 상표명.",
+          "en": "European brand name."
+        }
+      },
+      {
+        "name": {
+          "ko": "데카드론 (Decadron)",
+          "en": "Decadron"
+        },
+        "status": "discontinued",
+        "note": {
+          "ko": "과거 대표 상표명. 현재는 국내외 제네릭 덱사메타손이 널리 유통됩니다.",
+          "en": "Historic brand; generic dexamethasone is now widely marketed, including in Korea."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/dexamethasone.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "Fortecortin 상자와 정제",
+        "en": "Fortecortin box and tablets"
+      },
+      "credit": {
+        "author": "Tomino de WS",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fortecortin_4_mg_tbl.jpg"
       }
     }
   },
@@ -1194,7 +1881,31 @@
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prednisolone-2D-skeletal.svg"
       }
-    }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "소론도 (Solondo)",
+          "en": "Solondo"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "국내 유통 정제.",
+          "en": "Tablet marketed in Korea."
+        }
+      },
+      {
+        "name": {
+          "ko": "솔루프레드 (Solupred)",
+          "en": "Solupred"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "유럽 상표명.",
+          "en": "European brand name."
+        }
+      }
+    ]
   },
   {
     "id": "blood-transfusion",
@@ -1254,6 +1965,10 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erythrozytenkonzentrat_neu.jpg"
       }
+    },
+    "productsNone": {
+      "ko": "의약품이 아닌 금지 방법이므로 유통되는 상품명이 없습니다.",
+      "en": "This is a prohibited method, not a medicine, so there is no marketed product name."
     }
   },
   {
@@ -1296,7 +2011,20 @@
         "url": "https://en.wikipedia.org/wiki/Blood_substitute"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "products": [
+      {
+        "name": {
+          "ko": "헤모퓨어 (Hemopure, HBOC-201)",
+          "en": "Hemopure (HBOC-201)"
+        },
+        "status": "limited",
+        "note": {
+          "ko": "남아프리카공화국 등 극히 일부 국가에서만 승인된 적이 있으며, 미국·EU·국내 미승인.",
+          "en": "Only ever approved in a very few countries such as South Africa; not approved in the US, EU or Korea."
+        }
+      }
+    ]
   },
   {
     "id": "m2-concept",
@@ -1337,7 +2065,11 @@
     ],
     "caseIds": [
       "russian-state-doping"
-    ]
+    ],
+    "productsNone": {
+      "ko": "물질이 아닌 금지 방법이므로 유통되는 상품명이 없습니다.",
+      "en": "This is a prohibited method, not a substance, so there is no marketed product."
+    }
   },
   {
     "id": "m3-concept",
@@ -1376,7 +2108,11 @@
         "url": "https://www.wada-ama.org/en/prohibited-list"
       }
     ],
-    "caseIds": []
+    "caseIds": [],
+    "productsNone": {
+      "ko": "물질이 아닌 금지 방법이므로 유통되는 상품명이 없습니다.",
+      "en": "This is a prohibited method, not a substance, so there is no marketed product."
+    }
   },
   {
     "id": "propranolol",
@@ -1428,6 +2164,44 @@
         "license": "Public domain",
         "licenseUrl": null,
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Propranolol-from-1977-crystal-structure-3D-balls-side.png"
+      }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "인데랄 (Inderal)",
+          "en": "Inderal"
+        },
+        "status": "approved"
+      },
+      {
+        "name": {
+          "ko": "인데놀 (Indenol)",
+          "en": "Indenol"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "국내 유통 정제.",
+          "en": "Tablet marketed in Korea."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/propranolol.png",
+      "kind": "photo",
+      "alt": {
+        "ko": "프로프라놀롤 정제 (제네릭)",
+        "en": "Propranolol tablets (generic)"
+      },
+      "credit": {
+        "author": "Garzfoth",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Propranolol_tablets.png"
+      },
+      "note": {
+        "ko": "사진은 상표명이 없는 제네릭 정제입니다.",
+        "en": "The photo shows generic (unbranded) tablets."
       }
     }
   },
@@ -1481,6 +2255,44 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metoprolol_ball-and-stick.png"
+      }
+    },
+    "products": [
+      {
+        "name": {
+          "ko": "베타록 / 베타록 조크 (Betaloc / Betaloc ZOK)",
+          "en": "Betaloc / Betaloc ZOK"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "국내 유통.",
+          "en": "Marketed in Korea."
+        }
+      },
+      {
+        "name": {
+          "ko": "로프레서 (Lopressor) / 토프롤-XL (Toprol-XL)",
+          "en": "Lopressor / Toprol-XL"
+        },
+        "status": "approved",
+        "note": {
+          "ko": "미국 상표명.",
+          "en": "US brand names."
+        }
+      }
+    ],
+    "productImage": {
+      "src": "assets/img/products/metoprolol.jpg",
+      "kind": "photo",
+      "alt": {
+        "ko": "Betaloc ZOK 약병과 정제",
+        "en": "Betaloc ZOK bottle and tablets"
+      },
+      "credit": {
+        "author": "Mvejr",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Betaloc_ZOK.jpg"
       }
     }
   }

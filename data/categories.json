@@ -3,143 +3,373 @@
   "categories": [
     {
       "code": "S0",
-      "name": { "ko": "비승인 물질", "en": "Non-Approved Substances" },
+      "name": {
+        "ko": "비승인 물질",
+        "en": "Non-Approved Substances"
+      },
       "description": {
         "ko": "어떤 국가의 보건 당국에서도 인체 치료용으로 승인받지 않은 약리 물질을 포괄하는 분류입니다. 개발 중이거나 개발이 중단된 약물, 디자이너 약물, 수의학 전용 물질 등이 여기에 해당합니다.",
         "en": "Covers any pharmacological substance not approved by any governmental health authority for human therapeutic use. This includes drugs under development or discontinued, designer drugs and substances approved only for veterinary use."
       },
       "status": "always",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중과 경기기간 외 모두 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited both in-competition and out-of-competition."
+        }
+      }
     },
     {
       "code": "S1",
-      "name": { "ko": "동화작용제", "en": "Anabolic Agents" },
+      "name": {
+        "ko": "동화작용제",
+        "en": "Anabolic Agents"
+      },
       "description": {
         "ko": "근육과 조직의 성장을 촉진하는 동화 작용을 가진 물질로, 동화 남성화 스테로이드(AAS)와 기타 동화작용제를 포함합니다. 도핑 역사에서 가장 자주 적발되는 분류 중 하나입니다.",
         "en": "Substances with anabolic effects that promote the growth of muscle and other tissue, including anabolic androgenic steroids (AAS) and other anabolic agents. It is historically one of the most frequently detected classes in doping control."
       },
       "status": "always",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중과 경기기간 외 모두 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited both in-competition and out-of-competition."
+        }
+      }
     },
     {
       "code": "S2",
-      "name": { "ko": "펩타이드 호르몬, 성장인자, 관련 물질 및 모방체", "en": "Peptide Hormones, Growth Factors, Related Substances, and Mimetics" },
+      "name": {
+        "ko": "펩타이드 호르몬, 성장인자, 관련 물질 및 모방체",
+        "en": "Peptide Hormones, Growth Factors, Related Substances, and Mimetics"
+      },
       "description": {
         "ko": "적혈구 생성 자극제, 성장호르몬, 생식샘 자극 호르몬 등 체내 호르몬 체계에 작용하는 펩타이드 계열 물질과 그 모방체를 포함합니다. 체내에 자연적으로 존재하는 물질과 구별하기 위해 특수한 검사법이 사용됩니다.",
         "en": "Includes peptide-based substances and their mimetics that act on the body's hormonal systems, such as erythropoiesis-stimulating agents, growth hormone and gonadotrophins. Specialised analytical methods are used to distinguish them from naturally occurring hormones."
       },
       "status": "always",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중과 경기기간 외 모두 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited both in-competition and out-of-competition."
+        }
+      }
     },
     {
       "code": "S3",
-      "name": { "ko": "베타-2 작용제", "en": "Beta-2 Agonists" },
+      "name": {
+        "ko": "베타-2 작용제",
+        "en": "Beta-2 Agonists"
+      },
       "description": {
         "ko": "기관지를 확장시키는 약물 계열로 천식 치료에 널리 쓰입니다. 일부 흡입제는 금지목록에 정한 조건에서 예외적으로 허용되며, 그 밖의 사용은 치료목적사용면책(TUE)이 필요합니다.",
         "en": "A class of bronchodilators widely used to treat asthma. A few inhaled medicines are permitted under conditions specified in the Prohibited List, while other use requires a Therapeutic Use Exemption (TUE)."
       },
       "status": "always",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중과 경기기간 외 모두 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited both in-competition and out-of-competition."
+        },
+        "note": {
+          "ko": "일부 흡입용 베타-2 작용제는 금지목록이 정한 조건 안에서만 허용되며, 그 밖의 사용은 모든 종목에서 TUE가 필요합니다.",
+          "en": "A few inhaled beta-2 agonists are permitted only within the conditions set by the Prohibited List; any other use requires a TUE in every sport."
+        }
+      }
     },
     {
       "code": "S4",
-      "name": { "ko": "호르몬 및 대사 조절제", "en": "Hormone and Metabolic Modulators" },
+      "name": {
+        "ko": "호르몬 및 대사 조절제",
+        "en": "Hormone and Metabolic Modulators"
+      },
       "description": {
         "ko": "아로마타제 억제제, 항에스트로겐제, 대사 조절제 등 호르몬 균형이나 에너지 대사에 영향을 주는 물질을 포함합니다. 멜도니움과 트리메타지딘도 이 분류에 속합니다.",
         "en": "Includes substances that alter hormonal balance or energy metabolism, such as aromatase inhibitors, anti-oestrogenic substances and metabolic modulators. Meldonium and trimetazidine belong to this class."
       },
       "status": "always",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중과 경기기간 외 모두 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited both in-competition and out-of-competition."
+        }
+      }
     },
     {
       "code": "S5",
-      "name": { "ko": "이뇨제 및 은폐제", "en": "Diuretics and Masking Agents" },
+      "name": {
+        "ko": "이뇨제 및 은폐제",
+        "en": "Diuretics and Masking Agents"
+      },
       "description": {
         "ko": "이뇨제와 금지 물질의 존재를 가릴 수 있는 은폐제를 포함하는 분류입니다. 도핑 검사의 신뢰성을 훼손할 수 있고 급격한 체중 감량에 오용될 수 있어 상시 금지됩니다.",
         "en": "Covers diuretics and masking agents that may conceal the presence of other prohibited substances. They are prohibited at all times because they can undermine the integrity of doping control and may be misused for rapid weight loss."
       },
       "status": "always",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중과 경기기간 외 모두 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited both in-competition and out-of-competition."
+        }
+      }
     },
     {
       "code": "S6",
-      "name": { "ko": "흥분제", "en": "Stimulants" },
+      "name": {
+        "ko": "흥분제",
+        "en": "Stimulants"
+      },
       "description": {
         "ko": "중추신경계를 자극하여 각성 상태와 피로감에 영향을 주는 물질입니다. 경기기간 중에만 금지되며, 일부는 '특정 물질'로 분류되어 제재 시 사정이 고려될 수 있습니다.",
         "en": "Substances that stimulate the central nervous system and affect alertness and fatigue. They are prohibited in-competition only, and some are classified as Specified Substances, which allows circumstances to be considered in sanctioning."
       },
       "status": "in-competition",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중에만 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited in-competition only."
+        },
+        "note": {
+          "ko": "경기기간 외에 사용했더라도 경기기간 중 채취한 시료에서 검출되면 규정 위반이 될 수 있습니다.",
+          "en": "Even if used out-of-competition, a finding in a sample collected in-competition can still be a rule violation."
+        }
+      }
     },
     {
       "code": "S7",
-      "name": { "ko": "마약성 진통제", "en": "Narcotics" },
+      "name": {
+        "ko": "마약성 진통제",
+        "en": "Narcotics"
+      },
       "description": {
         "ko": "강력한 진통 작용을 가진 마약성 물질로, 통증을 가려 부상 위험을 키우고 의존성을 유발할 수 있습니다. 경기기간 중에 금지됩니다.",
         "en": "Powerful opioid painkillers that can hide pain, increasing the risk of further injury, and can cause dependence. They are prohibited in-competition."
       },
       "status": "in-competition",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중에만 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited in-competition only."
+        },
+        "note": {
+          "ko": "경기기간 외에 사용했더라도 경기기간 중 채취한 시료에서 검출되면 규정 위반이 될 수 있습니다.",
+          "en": "Even if used out-of-competition, a finding in a sample collected in-competition can still be a rule violation."
+        }
+      }
     },
     {
       "code": "S8",
-      "name": { "ko": "카나비노이드", "en": "Cannabinoids" },
+      "name": {
+        "ko": "카나비노이드",
+        "en": "Cannabinoids"
+      },
       "description": {
         "ko": "대마에서 유래한 천연 카나비노이드와 합성 카나비노이드를 포함합니다. 경기기간 중에 금지되며, 칸나비디올(CBD)은 금지 대상에서 제외됩니다.",
         "en": "Includes natural cannabinoids derived from cannabis and synthetic cannabinoids. They are prohibited in-competition, while cannabidiol (CBD) is excluded from the prohibition."
       },
       "status": "in-competition",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중에만 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited in-competition only."
+        },
+        "note": {
+          "ko": "경기기간 외에 사용했더라도 경기기간 중 채취한 시료에서 검출되면 규정 위반이 될 수 있습니다. 칸나비디올(CBD)은 금지 대상에서 제외됩니다.",
+          "en": "Even if used out-of-competition, a finding in a sample collected in-competition can still be a rule violation. Cannabidiol (CBD) is excluded."
+        }
+      }
     },
     {
       "code": "S9",
-      "name": { "ko": "글루코코르티코이드", "en": "Glucocorticoids" },
+      "name": {
+        "ko": "글루코코르티코이드",
+        "en": "Glucocorticoids"
+      },
       "description": {
         "ko": "강력한 항염증 작용을 가진 스테로이드 계열 약물입니다. 경기기간 중 특정 사용 방식이 금지되며, 치료가 필요한 경우 TUE 절차를 거쳐야 합니다.",
         "en": "Steroid medicines with strong anti-inflammatory effects. Certain forms of use are prohibited in-competition, and athletes who need them for treatment must go through the TUE process."
       },
       "status": "in-competition",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중에만 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited in-competition only."
+        },
+        "note": {
+          "ko": "경기기간 중 특정 사용 방식만 금지되며, 치료가 필요한 선수는 종목과 관계없이 TUE 절차를 거쳐야 합니다.",
+          "en": "Only certain forms of use are prohibited in-competition; athletes in any sport who need them for treatment must go through the TUE process."
+        }
+      }
     },
     {
       "code": "M1",
-      "name": { "ko": "혈액 및 혈액 성분 조작", "en": "Manipulation of Blood and Blood Components" },
+      "name": {
+        "ko": "혈액 및 혈액 성분 조작",
+        "en": "Manipulation of Blood and Blood Components"
+      },
       "description": {
         "ko": "수혈 등 혈액이나 적혈구 제제를 체내에 투입하는 행위, 산소 운반·전달을 인위적으로 향상시키는 행위, 혈관 내 혈액 조작을 금지합니다. 감염, 혈전, 순환계 과부하 등 심각한 건강 위험이 따릅니다.",
         "en": "Prohibits introducing blood or red blood cell products into the circulatory system, artificially enhancing oxygen uptake, transport or delivery, and intravascular manipulation of blood. These practices carry serious health risks such as infection, blood clots and circulatory overload."
       },
       "status": "always",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중과 경기기간 외 모두 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited both in-competition and out-of-competition."
+        }
+      }
     },
     {
       "code": "M2",
-      "name": { "ko": "화학적·물리적 조작", "en": "Chemical and Physical Manipulation" },
+      "name": {
+        "ko": "화학적·물리적 조작",
+        "en": "Chemical and Physical Manipulation"
+      },
       "description": {
         "ko": "도핑 검사 시료의 무결성과 유효성을 훼손하는 변조 행위와, 일정 기준을 넘는 정맥 주입을 금지합니다. 시료 바꿔치기나 변조는 그 자체로 중대한 규정 위반입니다.",
         "en": "Prohibits tampering with the integrity and validity of samples collected in doping control, as well as intravenous infusions above a set limit. Sample substitution or adulteration is itself a serious anti-doping rule violation."
       },
       "status": "always",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중과 경기기간 외 모두 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited both in-competition and out-of-competition."
+        }
+      }
     },
     {
       "code": "M3",
-      "name": { "ko": "유전자 및 세포 도핑", "en": "Gene and Cell Doping" },
+      "name": {
+        "ko": "유전자 및 세포 도핑",
+        "en": "Gene and Cell Doping"
+      },
       "description": {
         "ko": "유전 물질이나 유전자 편집 기술, 정상 또는 유전적으로 변형된 세포를 이용해 경기력을 높일 수 있는 행위를 금지합니다. 장기적 안전성이 확립되지 않은 기술로 건강 위험이 큽니다.",
         "en": "Prohibits the use of nucleic acids, gene editing technologies, or normal or genetically modified cells that could enhance performance. These technologies have no established long-term safety and pose major health risks."
       },
       "status": "always",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "all",
+        "summary": {
+          "ko": "모든 경기종목의 선수에게 적용됩니다 (종목 예외 없음). 경기기간 중과 경기기간 외 모두 금지됩니다.",
+          "en": "Applies to athletes in every sport (no sport exceptions). Prohibited both in-competition and out-of-competition."
+        }
+      }
     },
     {
       "code": "P1",
-      "name": { "ko": "베타 차단제", "en": "Beta-Blockers" },
+      "name": {
+        "ko": "베타 차단제",
+        "en": "Beta-Blockers"
+      },
       "description": {
         "ko": "심박수와 손떨림을 줄이는 약물로, 양궁, 사격, 골프 등 정밀성이 중요한 특정 종목에서만 금지됩니다. 종목에 따라 경기기간 중 또는 상시 금지 여부가 다릅니다.",
         "en": "Medicines that reduce heart rate and tremor, prohibited only in particular sports where precision matters, such as archery, shooting and golf. Depending on the sport, they are prohibited in-competition only or at all times."
       },
       "status": "particular-sports",
-      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list"
+      "sourceUrl": "https://www.wada-ama.org/en/prohibited-list",
+      "sports": {
+        "scope": "particular",
+        "summary": {
+          "ko": "아래 표에 적힌 종목의 선수에게만 적용됩니다. 표에 없는 종목의 선수에게는 베타 차단제가 금지되지 않습니다.",
+          "en": "Applies only to athletes in the sports listed below. Beta-blockers are not prohibited for athletes in sports not on this list."
+        },
+        "note": {
+          "ko": "2025년부터 스키·스노보드 종목은 대상에서 제외되었습니다. 표에 없는 종목이라도 국제연맹이 별도 규정을 둘 수 있으니 소속 연맹 규정을 확인하세요.",
+          "en": "Skiing and snowboarding were removed from the list from 2025. Federations may have additional rules, so check your own federation's regulations."
+        },
+        "list": [
+          {
+            "sport": {
+              "ko": "양궁",
+              "en": "Archery"
+            },
+            "federation": "WA",
+            "outOfCompetition": true
+          },
+          {
+            "sport": {
+              "ko": "자동차 경주",
+              "en": "Automobile"
+            },
+            "federation": "FIA",
+            "outOfCompetition": false
+          },
+          {
+            "sport": {
+              "ko": "당구 (전 종목)",
+              "en": "Billiards (all disciplines)"
+            },
+            "federation": "WCBS",
+            "outOfCompetition": false
+          },
+          {
+            "sport": {
+              "ko": "다트",
+              "en": "Darts"
+            },
+            "federation": "WDF",
+            "outOfCompetition": false
+          },
+          {
+            "sport": {
+              "ko": "골프",
+              "en": "Golf"
+            },
+            "federation": "IGF",
+            "outOfCompetition": false
+          },
+          {
+            "sport": {
+              "ko": "미니골프",
+              "en": "Mini-golf"
+            },
+            "federation": "WMF",
+            "outOfCompetition": false
+          },
+          {
+            "sport": {
+              "ko": "사격",
+              "en": "Shooting"
+            },
+            "federation": "ISSF, IPC",
+            "outOfCompetition": true
+          },
+          {
+            "sport": {
+              "ko": "수중 스포츠 (프리다이빙·스피어피싱·타깃 슈팅의 모든 세부 종목)",
+              "en": "Underwater sports (all subdisciplines of freediving, spearfishing and target shooting)"
+            },
+            "federation": "CMAS",
+            "outOfCompetition": true
+          }
+        ]
+      }
     }
   ]
 }

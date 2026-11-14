@@ -93,6 +93,49 @@ function checkImage(im, where) {
   if (!isHttps(c.sourceUrl)) contentErrors.push(`${where}.credit.sourceUrl: must be https`);
 }
 
+// Applicable sports: every category states which athletes it covers.
+// scope "all" for general classes; "particular" (P1) must list each sport with its federation.
+function checkSports(sp, status, where) {
+  if (!isObj(sp)) { contentErrors.push(`${where}: missing`); return; }
+  const want = status === 'particular-sports' ? 'particular' : 'all';
+  if (sp.scope !== want) contentErrors.push(`${where}.scope: must be "${want}" for status "${status}"`);
+  checkBilingual(sp.summary, `${where}.summary`);
+  if (sp.note !== undefined) checkBilingual(sp.note, `${where}.note`);
+  if (want === 'particular') {
+    if (!Array.isArray(sp.list) || sp.list.length < 1) { contentErrors.push(`${where}.list: at least 1 sport required`); return; }
+    sp.list.forEach((x, i) => {
+      checkBilingual(x?.sport, `${where}.list[${i}].sport`);
+      if (!isStr(x?.federation)) contentErrors.push(`${where}.list[${i}].federation: missing`);
+      if (typeof x?.outOfCompetition !== 'boolean') contentErrors.push(`${where}.list[${i}].outOfCompetition: boolean required`);
+    });
+  } else if (sp.list !== undefined) {
+    contentErrors.push(`${where}.list: only allowed for particular-sports categories`);
+  }
+}
+
+// Marketed products: every substance has either `products` (names it is sold under)
+// or `productsNone` (why there is none). Photos are optional and must be free-licensed.
+const PRODUCT_STATUSES = new Set(['approved', 'limited', 'discontinued', 'illicit']);
+function checkProducts(s, w) {
+  const has = Array.isArray(s?.products) && s.products.length > 0;
+  if (!has && s?.productsNone === undefined) contentErrors.push(`${w}: products or productsNone required`);
+  if (has && s.productsNone !== undefined) contentErrors.push(`${w}: use products or productsNone, not both`);
+  if (s?.productsNone !== undefined) checkBilingual(s.productsNone, `${w}.productsNone`);
+  if (has) {
+    s.products.forEach((p, i) => {
+      checkBilingual(p?.name, `${w}.products[${i}].name`);
+      if (!PRODUCT_STATUSES.has(p?.status)) contentErrors.push(`${w}.products[${i}].status: invalid "${p?.status}"`);
+      if (p?.note !== undefined) checkBilingual(p.note, `${w}.products[${i}].note`);
+    });
+  }
+  if (s?.productImage !== undefined) {
+    if (!has) contentErrors.push(`${w}.productImage: requires products`);
+    checkImage(s.productImage, `${w}.productImage`);
+    if (s.productImage?.note !== undefined) checkBilingual(s.productImage.note, `${w}.productImage.note`);
+  }
+  if (s?.sportsNote !== undefined) checkBilingual(s.sportsNote, `${w}.sportsNote`);
+}
+
 function scanText(text, where) {
   if (typeof text !== 'string') return;
   let t = text;
@@ -136,6 +179,7 @@ if (catData !== undefined) {
       checkBilingual(c?.description, `${w}.description`);
       if (!STATUSES.has(c?.status)) contentErrors.push(`${w}.status: invalid "${c?.status}"`);
       if (!isHttps(c?.sourceUrl)) contentErrors.push(`${w}.sourceUrl: must be https`);
+      checkSports(c?.sports, c?.status, `${w}.sports`);
       scanAll(c, w);
     });
     for (const code of EXPECTED_CODES) {
@@ -174,6 +218,7 @@ if (subs !== undefined) {
       }
       checkSources(s?.sources, w);
       if (s?.image !== undefined) checkImage(s.image, `${w}.image`);
+      checkProducts(s, w);
       if (!Array.isArray(s?.caseIds)) contentErrors.push(`${w}.caseIds: array required`);
       scanAll(s, w);
     });

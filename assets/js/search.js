@@ -1,4 +1,4 @@
-/* Search over substances (name + aliases, ko/en) and cases (title, ko/en). */
+/* Search over substances (name + aliases + marketed product names, ko/en) and cases (title, ko/en). */
 (function () {
   'use strict';
 
@@ -25,6 +25,9 @@
       var vals = [];
       if (s.name) vals.push(s.name.ko, s.name.en);
       if (s.aliases) vals = vals.concat(s.aliases.ko || [], s.aliases.en || []);
+      (Array.isArray(s.products) ? s.products : []).forEach(function (p) {
+        if (p && p.name) vals.push(p.name.ko, p.name.en);
+      });
       if (hit(q, vals)) res.substances.push(s);
     });
     cases.forEach(function (c) {

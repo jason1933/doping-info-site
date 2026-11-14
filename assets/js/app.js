@@ -70,6 +70,77 @@
     return el('span', { class: 'badge badge-' + status }, label);
   }
 
+  /* Short label for cards: "All sports" or "Particular sports only: Archery, ...". */
+  function sportsShort(c) {
+    var sp = c && c.sports;
+    if (!sp) return null;
+    var text = sp.scope === 'particular'
+      ? t('sportsParticular') + ': ' + (sp.list || []).map(function (x) { return pick(x.sport).split(' (')[0]; }).join(', ')
+      : t('sportsAll');
+    return el('span', { class: 'card-sports' }, t('sportsLabel') + ' · ' + text);
+  }
+
+  /* Full "Sports it applies to" block for category and substance pages. */
+  function sportsBlock(c, fromCategory, extraNote) {
+    var sp = c && c.sports;
+    if (!sp) return null;
+    var body = [
+      el('p', { class: 'sports-scope sports-scope-' + sp.scope },
+        el('strong', null, sp.scope === 'particular' ? t('sportsParticular') : t('sportsAll'))),
+      para(pick(sp.summary))
+    ];
+    if (extraNote) body.push(el('p', { class: 'notice' }, pick(extraNote)));
+    if (sp.scope === 'particular' && Array.isArray(sp.list) && sp.list.length) {
+      body.push(el('div', { class: 'table-wrap' }, el('table', { class: 'sports-table' },
+        el('thead', null, el('tr', null,
+          el('th', { scope: 'col' }, t('sportsColSport')),
+          el('th', { scope: 'col' }, t('sportsColFed')),
+          el('th', { scope: 'col' }, t('sportsColWhen')))),
+        el('tbody', null, sp.list.map(function (x) {
+          return el('tr', null,
+            el('th', { scope: 'row' }, pick(x.sport)),
+            el('td', null, x.federation || ''),
+            el('td', null, x.outOfCompetition ? t('sportsIcOoc') : t('sportsIcOnly')));
+        })))));
+    }
+    if (sp.note) body.push(el('p', { class: 'muted' }, pick(sp.note)));
+    if (fromCategory) body.push(el('p', { class: 'muted' }, t('sportsFromCategory') + ' (' + c.code + ')'));
+    return section(t('sportsHeading'), body, 'h-sports');
+  }
+
+  /* "Marketed as" block: product names with status, plus an optional free-licensed product photo. */
+  function productsBlock(s) {
+    var list = Array.isArray(s.products) ? s.products : [];
+    var body = [];
+    if (!list.length) {
+      body.push(para(s.productsNone ? pick(s.productsNone) : t('none')));
+      return section(t('productsHeading'), body, 'h-prod');
+    }
+    var im = s.productImage;
+    var src = im && DomUtil.safeImgSrc(im.src) ? im.src : null;
+    if (src) {
+      var cr = im.credit || {};
+      body.push(el('figure', { class: 'prod-figure' },
+        el('div', { class: 'prod-img-wrap' },
+          el('img', { class: 'prod-img', src: src, alt: pick(im.alt) || pick(s.name), loading: 'lazy', decoding: 'async' })),
+        el('figcaption', { class: 'sub-caption' },
+          el('span', null, pick(im.alt)),
+          im.note ? el('span', { class: 'sub-note' }, pick(im.note)) : null,
+          el('span', null, t('imageCredit') + ': ' + (cr.author || 'Unknown') + ' · ' + t('imageLicense') + ': ',
+            cr.licenseUrl ? DomUtil.extLink(cr.licenseUrl, cr.license || '') : (cr.license || '')),
+          cr.sourceUrl ? el('span', null, ' · ', DomUtil.extLink(cr.sourceUrl, t('imageSource') + ' (Wikimedia Commons)')) : null)));
+    }
+    body.push(el('ul', { class: 'prod-list' }, list.map(function (p) {
+      var key = 'prod_' + p.status;
+      return el('li', { class: 'prod-item' },
+        el('span', { class: 'prod-name' }, pick(p.name)),
+        el('span', { class: 'prod-status prod-status-' + p.status }, t(key) === key ? '' : t(key)),
+        p.note ? el('span', { class: 'prod-note' }, pick(p.note)) : null);
+    })));
+    body.push(el('p', { class: 'notice' }, t('productsNotice')));
+    return section(t('productsHeading'), body, 'h-prod');
+  }
+
   function section(titleText, children, id) {
     var h = id || null;
     return el('section', { class: 'block', 'aria-labelledby': h }, el('h2', { id: h }, titleText), children);
@@ -116,7 +187,8 @@
       s.image ? el('span', { class: 'card-thumb', 'aria-hidden': 'true' }, substanceImg(s, 'card-thumb-img')) : null,
       el('span', { class: 'card-code' }, s.category || ''),
       el('span', { class: 'card-title' }, pick(s.name)),
-      cat ? el('span', { class: 'card-sub' }, pick(cat.name)) : null));
+      cat ? el('span', { class: 'card-sub' }, pick(cat.name)) : null,
+      sportsShort(cat)));
   }
 
   function caseCard(c) {
@@ -130,7 +202,8 @@
     return el('li', null, el('a', { class: 'card', href: href(idHref('category', c.code)) },
       el('span', { class: 'card-code' }, c.code),
       el('span', { class: 'card-title' }, pick(c.name)),
-      statusBadge(c.status)));
+      statusBadge(c.status),
+      sportsShort(c)));
   }
 
   function newsList(items) {
@@ -192,6 +265,7 @@
         el('h1', { id: 'page-title', tabindex: '-1' }, el('span', { class: 'code-pill' }, c.code), ' ', pick(c.name)),
         el('p', null, el('span', { class: 'muted' }, t('statusLabel') + ': '), statusBadge(c.status))),
       para(pick(c.description)),
+      sportsBlock(c, false),
       c.sourceUrl ? el('p', null, DomUtil.extLink(c.sourceUrl, t('officialSource'))) : null,
       section(t('substancesInCategory'), subs.length ? el('ul', { class: 'card-grid' }, subs.map(substanceCard)) : message(t('noSubstances')), 'h-subs')
     ];
@@ -228,6 +302,8 @@
         cat ? el('p', null, el('span', { class: 'code-pill' }, cat.code), ' ', statusBadge(cat.status)) : null,
         aliases.length ? el('p', { class: 'muted' }, t('aliases') + ': ' + aliases.join(', ')) : null),
       substanceFigure(s),
+      sportsBlock(cat, true, s.sportsNote),
+      productsBlock(s),
       section(t('effects'), para(pick(s.effects)), 'h-eff'),
       section(t('sideEffects'), para(pick(s.sideEffects)), 'h-side'),
       section(t('detection'), para(pick(s.detection)), 'h-det'),
